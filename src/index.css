@@ -105,3 +105,37 @@ img {
   font-weight: 700;
   background-color: red;
 }
+
+/* ----- Skill Section ----- */
+.skills-container {
+  margin-top: 50px;
+  padding: 0 4%;
+}
+
+.skills-box {
+  background-color: green;
+  border-radius: 25px;
+}
+
+.skills-title-container {
+  width: 100%;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.skills-title {
+}
+
+.skills-list-container {
+ width: 100%;
+ text-align: center;
+ padding-bottom: 32px;
+}
+
+.skills-list {
+  list-style: none;
+}
+
+.skills-item {
+
+}
