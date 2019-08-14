@@ -14,6 +14,10 @@ body {
   width: 100%;
 }
 
+img {
+  vertical-align: middle;
+}
+
 /* ----- NavBar -----*/
 .navbar {
   width: 100%;
@@ -21,12 +25,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 4%;
 }
 
 .nav-title-container {
   padding: 0;
   margin: 0;
-  margin-left: 32px;
 }
 
 .nav-title {
@@ -40,7 +44,6 @@ body {
   display: flex;
   padding: 0;
   margin: 0;
-  margin-right: 32px;
 }
 
 .nav-menu-item {
@@ -48,10 +51,6 @@ body {
   margin: 0;
   list-style: none;
   padding-right: 24px;
-}
-
-.nav-menu-item:nth-last-child(1) {
-  padding-right: 0;
 }
 
 .nav-menu-item a {
@@ -65,4 +64,44 @@ body {
   color: #000;
 }
 
+/* ----- About ----- */
+.about-container {
+  width: 100%;
 
+  padding: 0 4%;
+}
+
+.about-image-container {
+  width: 100%;
+}
+
+.about-image {
+  width: 100%;
+  
+}
+
+.about-text-container {
+  margin-top: 100px;
+}
+
+.about-text {
+  line-height: 2em;
+}
+
+.about-contact {
+  display: block;
+  border: 2px solid red;
+  height: 50px;
+  width: 150px;
+  margin: 32px auto 0;
+  color: red;
+  font-size: 1em;
+  transition: all .1s linear;
+  outline-width: 0;
+}
+
+.about-contact:hover {
+  color: #fff;
+  font-weight: 700;
+  background-color: red;
+}
