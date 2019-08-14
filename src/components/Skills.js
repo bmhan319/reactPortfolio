@@ -2,8 +2,8 @@ import React from 'react'
 
 const Skills = () => {
   return(
-    <section class="skills-container">
-      <div className="skills-box">
+    <section class="skills-section">
+      <div className="skills-container">
         <div className="skills-title-container">
           <h2 className="skills-title">Web Developer</h2>
         </div>
