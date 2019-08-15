@@ -9,12 +9,9 @@ const About = () => {
           <img src="https://picsum.photos/1920/1080" alt="Brian Han" className="about-image"/>
         </div>
         <div className="about-text-container">
-          <p className="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Harum ipsa commodi blanditiis quidem qui dolorem, asperiores ipsum, magnam obcaecati voluptatum 
-          accusamus sed reiciendis amet fugiat provident, laudantium officia vel error. Lorem ipsum dolor 
-          sit amet consectetur adipisicing elit. Harum ipsa commodi blanditiis quidem qui dolorem, asperiores 
-          ipsum, magnam obcaecati voluptatum accusamus sed reiciendis amet fugiat provident, laudantium 
-          officia vel error.</p>
+          <p className="about-text">Brian Han is a former Project Manager coming from the world of Feature Film 
+            Post Production.  Looking to make a career change, he discovered a passion for Web Development and 
+            is pursuing his goals of making a career out of it.</p>
         </div>
         <button type="button" className="about-contact">Contact</button>
       </div>

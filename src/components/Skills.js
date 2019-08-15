@@ -23,7 +23,7 @@ const Skills = () => {
           </div>
           <div className="skills-title-container">
             <h2 className="skills-title">Web Developer</h2>
-            <p className="skills-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, iusto delectus deserunt qui et doloremque unde.</p>
+            <p className="skills-text">I enjoy taking great design and bringing them into life on the computer screen.</p>
           </div>         
         </div>
         
