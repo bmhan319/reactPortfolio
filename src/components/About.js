@@ -1,4 +1,5 @@
 import React from 'react'
+import brian from '../img/brian.jpg'
 
 const About = () => {
   return (
@@ -6,7 +7,7 @@ const About = () => {
       <a name="about"></a>
       <div className="about-container">
         <div className="about-image-container">
-          <img src="https://picsum.photos/1920/1080" alt="Brian Han" className="about-image"/>
+          <img src={brian} alt="Brian Han" className="about-image"/>
         </div>
         <div className="about-text-container">
           <p className="about-text">Brian Han is a former Project Manager coming from the world of Feature Film 

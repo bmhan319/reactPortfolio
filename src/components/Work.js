@@ -1,4 +1,8 @@
 import React from 'react'
+import stumptown from '../img/stumptown.png'
+import bonapp from '../img/bonapp.png'
+import block from '../img/block.png'
+import conquer from '../img/conquer.png'
 
 const Work = () => {
   return (
@@ -10,16 +14,16 @@ const Work = () => {
       </div>
       <div className="work-project-container">
         <div className="projects project1">
-          <a href="#"><img src="https://picsum.photos/id/231/500" alt="Project1" className="project-image project1-image"/></a>
+          <a href="https://bmhan319.github.io/stumptown/"><img src={stumptown} alt="Stumptown" className="project-image project1-image"/></a>
         </div>
         <div className="projects project2">
-          <a href="#"><img src="https://picsum.photos/id/232/500" alt="Project2" className="project-image project2-image"/></a>
+          <a href="https://bmhan319.github.io/bon-appetit/index.html"><img src={bonapp} alt="Bon Appetit" className="project-image project2-image"/></a>
         </div>
         <div className="projects project3">
-          <a href="#"><img src="https://picsum.photos/id/233/500" alt="Project3" className="project-image project3-image"/></a>
+          <a href="https://bmhan319.github.io/BlockRenovations/"><img src={block} alt="Block Renovations" className="project-image project3-image"/></a>
         </div>
         <div className="projects project4">
-          <a href="#"><img src="https://picsum.photos/id/234/500" alt="Project4" className="project-image project4-image"/></a>
+          <a href="https://bmhan319.github.io/CSSGrid-Conquer-Page/"><img src={conquer} alt="Conquer Page Template" className="project-image project4-image"/></a>
         </div>
         <div className="projects project5">
           <a href="#"><img src="https://picsum.photos/id/235/500" alt="Project5" className="project-image project5-image"/></a>

@@ -234,6 +234,11 @@ img {
   font-weight: 300
 }
 
+.work-statement a {
+  color: #00C0CA;
+  text-decoration: none;
+}
+
 .work-project-container {
   width: 100%;
   display: grid;
