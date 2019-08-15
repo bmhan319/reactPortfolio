@@ -1,3 +1,21 @@
+@font-face {
+	font-family: 'Maison Neue';
+	src: url('../src/fonts/MaisonNeue-Medium.woff2') format('woff2'),
+		url('../src/fonts/MaisonNeue-Medium.woff') format('woff'),
+		url('../src/fonts/MaisonNeue-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Maison Neue';
+	src: url('../src/fonts/MaisonNeue-Light.woff2') format('woff2'),
+		url('../src/fonts/MaisonNeue-Light.woff') format('woff'),
+		url('../src/fonts/MaisonNeue-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,9 +23,10 @@
 }
 
 body {
-  font-family: 'Nunito', Helvetica, Arial, sans-serif;
+  font-family: 'Maison Neue', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;
 }
 
 .body-container {
@@ -129,7 +148,7 @@ img {
 }
 
 .box {
-  padding: 32px 0;
+  height: 270px;
 }
 
 .box1 {
@@ -144,6 +163,7 @@ img {
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
+  padding: 32px 0;
 }
 
 .box3 {
@@ -300,6 +320,7 @@ img {
   .box1,
   .box3 {
     display: block;
+    padding: 32px 0;
   }
 
   .skills-text {
