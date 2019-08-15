@@ -3,6 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <section class="about-section">
+      <a name="about"></a>
       <div className="about-image-container">
         <img src="https://picsum.photos/1920/1080" alt="Brian Han" className="about-image"/>
       </div>

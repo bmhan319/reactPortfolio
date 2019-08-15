@@ -3,6 +3,7 @@ import React from 'react'
 const Work = () => {
   return (
     <section class="work-section">
+      <a name="work"></a>
       <div className="work-title-container">
         <h2 className="work-title">MY Recent Work</h2>
         <p className="work-statement">Here are my recent projects. Want to see more? <a href="#">Email me</a>.</p>

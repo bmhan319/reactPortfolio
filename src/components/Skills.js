@@ -3,6 +3,7 @@ import React from 'react'
 const Skills = () => {
   return(
     <section class="skills-section">
+      <a name="skills"></a>
       <div className="skills-container">
         <div className="skills-title-container">
           <h2 className="skills-title">Web Developer</h2>

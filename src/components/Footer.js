@@ -4,6 +4,7 @@ import wave from '../img/gray_divide2.png'
 const Footer = () => {
   return(
     <footer className="footer">
+      <a name="contact"></a>
       <div class="footer-wave">
         <img src={wave} alt="wave bg" />
       </div>
