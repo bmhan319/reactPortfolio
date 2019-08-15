@@ -3,6 +3,7 @@ import stumptown from '../img/stumptown.png'
 import bonapp from '../img/bonapp.png'
 import block from '../img/block.png'
 import conquer from '../img/conquer.png'
+import fesc from '../img/fesc.jpg'
 
 const Work = () => {
   return (
@@ -26,7 +27,7 @@ const Work = () => {
           <a href="https://bmhan319.github.io/CSSGrid-Conquer-Page/"><img src={conquer} alt="Conquer Page Template" className="project-image project4-image"/></a>
         </div>
         <div className="projects project5">
-          <a href="#"><img src="https://picsum.photos/id/235/500" alt="Project5" className="project-image project5-image"/></a>
+          <a href="https://bmhan319.github.io/FloridaEnergySystemsConsortium-redesign/"><img src={fesc} alt="FESC Redesign" className="project-image project5-image"/></a>
         </div>
         <div className="projects project6">
           <a href="#"><img src="https://picsum.photos/id/236/500" alt="Project6" className="project-image project6-image"/></a>
