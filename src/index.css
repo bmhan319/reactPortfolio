@@ -62,6 +62,8 @@ img {
 
 .nav-menu-item a:hover {
   color: #000;
+  border-bottom: 3px solid orangered;
+
 }
 
 /* ----- About ----- */
@@ -250,4 +252,48 @@ img {
     grid-row-start: 3;
     grid-row-end: 4;
   }
+}
+
+/* ----- Footer ----- */
+.footer {
+  margin-top: 100px;
+  position: relative;
+}
+
+.footer-wave {
+  width: 100%;
+  top: -170px;
+  z-index: -10;
+}
+
+.footer-wave img {
+  width: 100%;
+}
+
+.footer-container {
+  background-color: #444957;
+}
+
+.footer-container h4 {
+  color: #00C0CA;
+  height: 220px;
+  
+}
+
+.footer-container li {
+  color: #fff;
+}
+
+.footer-bottom-container {
+  width: 100%;
+  background-color: #2C3039;
+  height: 80px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-copyright {
+  color: #00C0CA;
 }
