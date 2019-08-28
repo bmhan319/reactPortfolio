@@ -23,7 +23,6 @@ img {
 
 .hover {
   position: relative;
-  display: inline-block;
 }
 
 .hover::before {
@@ -392,7 +391,7 @@ img {
   color: #fff;
   font-size: 1em;
   text-decoration: none;
-  padding-top: 16px;
+  
 }
 
 .footer-email-link {
@@ -400,7 +399,10 @@ img {
   text-decoration: none;
 }
 
-
+.footer-resume-container,
+.footer-linkedin-container {
+  padding-top: 16px;
+}
 
 
 @media only screen and (min-width: 600px) {
@@ -628,6 +630,11 @@ img {
 
   .footer-email-link {
     font-weight: 400;
+  }
+
+  .footer-resume-container,
+  .footer-linkedin-container {
+    padding-top: 0;
   }
 }
 

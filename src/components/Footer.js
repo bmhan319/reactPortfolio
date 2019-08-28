@@ -20,9 +20,9 @@ const Footer = () => {
             <p className="footer-name">Brian Han <span className="footer-position">Web Developer</span></p>
           </div>
           <div className="footer-col2">
-            <span className="footer-email">Email: <a className="hover footer-email-link" href="mailto:brianhan319@gmail.com">brianhan319@gmail.com</a></span> 
-            <a href={resume} className="hover footer-resume">Resume</a>
-            <a href="linkedin" className="hover footer-linkedin">LinkedIn</a>
+            <div className="footer-email">Email: <a className="hover footer-email-link" href="mailto:brianhan319@gmail.com">brianhan319@gmail.com</a></div> 
+            <div className="footer-resume-container"><a href={resume} className="hover footer-resume">Resume</a></div>
+            <div className="footer-linkedin-container"><a href="linkedin" className="hover footer-linkedin">LinkedIn</a></div>
           </div>
         </div>
       </div>
