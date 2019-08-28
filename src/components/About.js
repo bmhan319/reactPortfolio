@@ -1,10 +1,8 @@
 import React from 'react'
-import brian from '../img/brian.jpg'
 
 const About = () => {
   return (
-    <section className="about-section">
-      <a name="about"></a>
+    <section id="about" className="about-section">
       <div className="about-container">
         <div className="about-intro-container">
           <h2 className="about-intro">Hi, I'm Brian</h2>

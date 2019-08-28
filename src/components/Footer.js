@@ -21,8 +21,8 @@ const Footer = () => {
           <div className="footer-col2">
             <span className="footer-email">Email: <a href="mailto:brianhan319@gmail.com">brianhan319@gmail.com</a></span> 
             
-            <a href="#" className="footer-resume">Resume</a>
-            <a href="#" className="footer-linkedin">LinkedIn</a>
+            <a href="resume" className="footer-resume">Resume</a>
+            <a href="linkedin" className="footer-linkedin">LinkedIn</a>
           </div>
         </div>
       </div>

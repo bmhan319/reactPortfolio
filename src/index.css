@@ -262,14 +262,10 @@ img {
   grid-row-gap: 24px;
 }
 
-.project1,
-.project2,
-.project3,
-.project4,
-.project5,
-.project6 {
+.projects {
   grid-column-start: 1;
   grid-column-end: 2;
+  transition: opacity .2s linear;
 }
 
 .project1 {
@@ -304,6 +300,14 @@ img {
 
 .project-image {
   width: 100%;
+}
+
+.projects {
+
+}
+
+.projects:hover {
+  opacity: .2;
 }
 
 /* ----- Footer ----- */

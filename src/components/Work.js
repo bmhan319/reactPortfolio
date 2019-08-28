@@ -8,8 +8,7 @@ import calc from '../img/reactCalc.png'
 
 const Work = () => {
   return (
-    <section class="work-section">
-      <a name="work"></a>
+    <section id="work" class="work-section">
       <div className="work-container">
         <div className="work-title-container">
           <h2 className="work-title">Work Samples</h2>
