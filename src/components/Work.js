@@ -5,6 +5,7 @@ import block from '../img/block.png'
 import conquer from '../img/conquer.png'
 import fesc from '../img/fesc.jpg'
 import calc from '../img/reactCalc.png'
+import {NavLink} from 'react-router-dom'
 
 const Work = () => {
   return (
@@ -21,7 +22,7 @@ const Work = () => {
               <figcaption className="effect-caption calc-caption">
                 <h2 className="effect-title calc-title">Calculator</h2>
                 <p className="effect-text calc-text">Made using React</p>
-                <a className="effect-link calc-link" href="https://bmhan319.github.io/reactCalc/">Go</a>
+                <NavLink to="/calc" className="effect-link calc-link">Go</NavLink>
               </figcaption>			
             </figure>
           </div>
@@ -31,7 +32,7 @@ const Work = () => {
               <figcaption className="effect-caption stump-caption">
                 <h2 className="effect-title stump-title">Stumptown</h2>
                 <p className="effect-text stump-text">Recreating a few pages on Stumptown Site</p>
-                <a className="effect-link stump-link" href="https://bmhan319.github.io/stumptown/">Go</a>
+                <NavLink to="/stumptown" className="effect-link stump-link">Go</NavLink>
               </figcaption>			
             </figure>
           </div>
@@ -41,7 +42,7 @@ const Work = () => {
               <figcaption className="effect-caption bonapp-caption">
                 <h2 className="effect-title bonapp-title">Bon Appetit</h2>
                 <p className="effect-text bonapp-text">Recreating a few pages on the Bon Appetit Site</p>
-                <a className="effect-link bonapp-link" href="https://bmhan319.github.io/bon-appetit/index.html">Go</a>
+                <NavLink to="/bonappetit" className="effect-link bonapp-link">Go</NavLink>
               </figcaption>			
             </figure>
           </div>
@@ -51,7 +52,7 @@ const Work = () => {
               <figcaption className="effect-caption block-caption">
                 <h2 className="effect-title block-title">Block Renovations</h2>
                 <p className="effect-text block-text">Recreating the homepage on the Block Renovations Site</p>
-                <a className="effect-link block-link" href="https://bmhan319.github.io/BlockRenovations/">Go</a>
+                <NavLink to="/block" className="effect-link block-link">Go</NavLink>
               </figcaption>			
             </figure>
           </div>
@@ -61,7 +62,7 @@ const Work = () => {
               <figcaption className="effect-caption conquer-caption">
                 <h2 className="effect-title conquer-title">Conquer</h2>
                 <p className="effect-text conquer-text">Recreating the homepage on the Conquer Web Template</p>
-                <a className="effect-link conquer-link" href="https://bmhan319.github.io/CSSGrid-Conquer-Page/">Go</a>
+                <NavLink to="/conquer" className="effect-link conquer-link">Go</NavLink>
               </figcaption>			
             </figure>
           </div>
@@ -71,7 +72,7 @@ const Work = () => {
               <figcaption className="effect-caption fesc-caption">
                 <h2 className="effect-title fesc-title">F.E.S.C</h2>
                 <p className="effect-text fesc-text">Redesigned a few pages of the FESC website</p>
-                <a className="effect-link fesc-link" href="https://bmhan319.github.io/FloridaEnergySystemsConsortium-redesign/">Go</a>
+                <NavLink to="/fesc"  className="effect-link fesc-link">Go</NavLink>
               </figcaption>			
             </figure>
           </div>
