@@ -387,7 +387,8 @@ img {
 
 .footer-email,
 .footer-resume,
-.footer-linkedin {
+.footer-linkedin,
+.footer-git {
   color: #fff;
   font-size: 1em;
   text-decoration: none;
@@ -400,7 +401,8 @@ img {
 }
 
 .footer-resume-container,
-.footer-linkedin-container {
+.footer-linkedin-container,
+.footer-git-container {
   padding-top: 16px;
 }
 
@@ -621,7 +623,8 @@ img {
 
   .footer-email,
   .footer-resume,
-  .footer-linkedin {
+  .footer-linkedin,
+  .footer-git {
     font-size: 1em;
     font-weight: 700;
     padding-top: 0;
@@ -633,7 +636,8 @@ img {
   }
 
   .footer-resume-container,
-  .footer-linkedin-container {
+  .footer-linkedin-container,
+  .footer-git-container {
     padding-top: 0;
   }
 }
