@@ -21,11 +21,34 @@ img {
   vertical-align: middle;
 }
 
+.hover {
+  position: relative;
+  display: inline-block;
+}
+
+.hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #fff;
+  transform-origin: right;
+  transition: transform .2s ease-out;
+}
+
+.hover:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
 /* ----- Top ----- */
 .section-top {
   width: 100%;
   height: 400px;
-  background-color: #3577ff;
+  background-color: #3678ff;
   position: relative;
   display: flex;
   align-items: center;
@@ -51,13 +74,14 @@ img {
 .nav-name {
   padding: 0;
   margin: 0;
-  font-size: 1.25em;
+  font-size: 1em;
+  font-weight: 700;
   color: #fff;
 }
 
 .nav-position {
-  color: #ccc;
   margin-left: 8px;
+  font-weight: 400;
 }
 
 .nav-menu-container {
@@ -78,13 +102,10 @@ img {
 }
 
 .nav-menu-item a {
-  font-size: .95em;
+  font-size: 1em;
+  font-weight: 700;
   text-decoration: none;
   color: #fff;
-}
-
-.nav-menu-item a:hover {
-  border-bottom: 2px solid #fff;
 }
 
 .title-container {
@@ -97,6 +118,7 @@ img {
 
 .title {
   color: #fff;
+  font-size: 2.5em; /*160px*/
   letter-spacing: 1px;
 }
 
@@ -117,7 +139,7 @@ img {
 
 .about-container {
   width: 60%;
-  max-width: 500px;
+  max-width: 800px;
   margin: 0;
 }
 
@@ -127,8 +149,8 @@ img {
 
 .about-intro {
   text-align: center;
-  color: #3577ff;
-  font-size: 1em;
+  color: #3678ff;
+  font-size: 1.5em;
 }
 
 .about-text {
@@ -234,7 +256,6 @@ img {
 
 .work-container {
   padding: 50px 15%;
-  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -301,10 +322,6 @@ img {
   width: 100%;
 }
 
-.projects {
-
-}
-
 .projects:hover {
   opacity: .2;
 }
@@ -327,7 +344,7 @@ img {
 .work-together-title {
   text-align: center;
   padding-bottom: 16px;
-  color: #3577ff;
+  color: #3678ff;
   font-size: 1em;
 }
 
@@ -361,7 +378,6 @@ img {
 }
 
 .footer-position {
-  color: #bbb;
   font-size: 1em;
   padding-left: 8px;
 }
@@ -382,31 +398,65 @@ img {
   padding-top: 16px;
 }
 
-.footer-resume:hover,
-.footer-linkedin:hover {
-  text-decoration: underline;
-}
-
-.footer-email a {
-  color: #ccc;
+.footer-email-link {
+  color: #fff;
   text-decoration: none;
-}
-
-.footer-email a:hover {
-  text-decoration: underline;
 }
 
 
 
 
 @media only screen and (min-width: 600px) {
+  .section-top {
+    height: 780px;
+  }
+
   .nav-menu-container {
   display: flex;
+  }
+
+  .title {
+    font-size: 4.25em; /*160px*/
+  }
+
+  /* ----- About ----- */
+  .about-section {
+    height: 780px;
+  }
+
+  .about-intro-container {
+    margin-bottom: 23px;
+  }
+
+  .about-intro {
+    text-align: center;
+    color: #3678ff;
+    font-size: 1.75em;
+  }
+
+  .about-text {
+    font-size: 1.75em;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  /* ----- Skills ----- */
+  .skills-section {
+    width: 100%;
+    height: 780px;
+    display: flex;
+    align-items: center;
   }
 
   .skills-container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
+    grid-column-gap: 10%;
+    width: 920px;
+  }
+
+  .box {
+    padding: 0;
   }
 
   .box1 {
@@ -433,21 +483,53 @@ img {
   .box1,
   .box3 {
     display: block;
-    padding: 32px 0;
+  }
+
+  .skills-icon-container {
+    padding-bottom: 40px;
+  }
+
+  .skills-language-container,
+  .skills-title-container {
+    padding: 0;
+  }
+
+  .skills-language {
+    font-weight: 700;
+  }
+
+  .skills-language-list {
+    list-style: none;
   }
 
   .skills-text {
     width: 90%;
   }
 
+
+
+  /* ----- Work -----*/
   .work-container{
-    padding: 50px 100px;
+    margin: 0 14%;
+    padding: 140px 0;
+    max-width: 1440px;
+  }
+
+  .work-title-container {
+    text-align: center;
+    margin-bottom: 86px;
+  }
+
+  .work-title {
+    padding-bottom: 6px;
+    color: #fff;
   }
 
   .work-project-container {
     grid-template-columns:1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr);
-    grid-column-gap: 24px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
   }
 
   .project1,
@@ -482,39 +564,72 @@ img {
   }
 
   /* ----- Footer ----- */
+  .footer-head-section {
+    height: 780px;
+    display: flex;
+    align-items: center;
+  }
+
   .footer-work-together-container {
-    max-width: 500px;
+    max-width: 800px;
+  }
+
+  .work-together-title {
+    padding-bottom: 23px;
+    font-size: 1.75em;
+  }
+
+  .work-together-text {
+    font-size: 1.75em;
+  }
+
+  .footer-tail-section {
+    height: 148px;
+    display: flex;
+    align-items: center;
   }
 
   .footer-row {
+    width: 100%;
     display: flex;
   }
 
   .footer-col1,
   .footer-col2 {
-    width: 25%;
+    width: 30%;
     padding-bottom: 0;
     display: flex;
     align-items: center;
   }
 
   .footer-col2 {
-    width: 75%;
+    width: 70%;
     flex-direction: row;
     justify-content: flex-end;
   }
 
   .footer-name {
-    font-size: .75em;
+    font-size: 1em;
+    font-weight: 700;
     text-align: left;
+  }
+
+  .footer-position {
+    font-size: 1em;
+    font-weight: 400;
+    padding-left: 8px;
   }
 
   .footer-email,
   .footer-resume,
   .footer-linkedin {
-    font-size: .75em;
+    font-size: 1em;
+    font-weight: 700;
     padding-top: 0;
-    padding-left: 32px;
+    margin-left: 32px;
   }
 
+  .footer-email-link {
+    font-weight: 400;
+  }
 }

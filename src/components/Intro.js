@@ -8,9 +8,9 @@ const Intro = () => {
           <h1 className="nav-name">Brian Han <span className="nav-position">Web Developer</span></h1>
         </div>
         <ul className="nav-menu-container">
-          <li className="nav-menu-item menu1"><a href="#about">About</a></li>
-          <li className="nav-menu-item menu2"><a href="#skills">Skills</a></li>
-          <li className="nav-menu-item menu3"><a href="#work">Work</a></li>
+          <li className="nav-menu-item menu1"><a className="hover" href="#about">About</a></li>
+          <li className="nav-menu-item menu2"><a className="hover" href="#skills">Skills</a></li>
+          <li className="nav-menu-item menu3"><a className="hover" href="#work">Work</a></li>
         </ul>
       </nav>
       <div className="title-container">
