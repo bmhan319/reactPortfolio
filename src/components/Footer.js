@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../docs/resume2019.pdf'
 
 const Footer = () => {
   return(
@@ -20,7 +21,7 @@ const Footer = () => {
           </div>
           <div className="footer-col2">
             <span className="footer-email">Email: <a className="hover footer-email-link" href="mailto:brianhan319@gmail.com">brianhan319@gmail.com</a></span> 
-            <a href="resume" className="hover footer-resume">Resume</a>
+            <a href={resume} className="hover footer-resume">Resume</a>
             <a href="linkedin" className="hover footer-linkedin">LinkedIn</a>
           </div>
         </div>
