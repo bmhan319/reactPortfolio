@@ -5,7 +5,7 @@ import tools from '../img/tools.svg'
 
 const Skills = () => {
   return(
-    <section class="skills-section">
+    <section className="skills-section">
       <a name="skills"></a>
       <div className="skills-container">
         <div className="box box1">
