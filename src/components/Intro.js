@@ -2,7 +2,7 @@ import React from 'react';
 
 const Intro = () => {
   return(
-    <div className="section-top">
+    <header className="section-header">
       <nav className="navbar">
         <div className="nav-name-container">
           <h1 className="nav-name">Brian Han <span className="nav-position">Web Developer</span></h1>
@@ -16,7 +16,7 @@ const Intro = () => {
       <div className="title-container">
         <h1 className="title">Perfecting Pixels.<br />Crafting code.</h1>
       </div>
-    </div>
+    </header>
   )
 }
 

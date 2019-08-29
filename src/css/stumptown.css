@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.stumptown-page-container {
+  background-color: #2C3039;
+}
+
+.temp-container {
+  height: 100px;
+}
+
+/* ----- Header ----- */
+.stumptown-header-outer-container {
+  width: 100%;
+}
+
+.stumptown-header-inner-container {
+  margin: 0 18%;
+}
+
+.stumptown-title {
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 3em;
+  padding-bottom: 16px;
+}
+
+.stumptown-subtitle {
+  color: #ccc;
+  font-weight: 500;
+  font-size: 1.5em;
+  padding-bottom: 16px;
+}
+
+.stumptown-visit {
+  background-color: #439d43;
+  width: 180px;
+  height: 40px;
+  margin-bottom: 24px;
+  border-radius: 3px;
+  border: 0;
+  color: #fff;
+  font-size: .75em;
+  font-weight: 700;
+  box-shadow: 3px 2px 5px #000;
+}

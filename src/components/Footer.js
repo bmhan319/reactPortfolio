@@ -23,7 +23,7 @@ const Footer = () => {
             <div className="footer-email">Email: <a className="hover footer-email-link" href="mailto:brianhan319@gmail.com">brianhan319@gmail.com</a></div> 
             <div className="footer-resume-container"><a href={resume} className="hover footer-resume">Resum{String.fromCharCode(233)}</a></div>
             <div className="footer-linkedin-container"><a href="linkedin" className="hover footer-linkedin">LinkedIn</a></div>
-            <div className="footer-git-container"><a href="github" className="hover footer-git">GitHub</a></div>
+            <div className="footer-git-container"><a href="https://github.com/bmhan319/" className="hover footer-git">GitHub</a></div>
           </div>
         </div>
       </div>

@@ -44,7 +44,7 @@ img {
 }
 
 /* ----- Top ----- */
-.section-top {
+.section-header {
   width: 100%;
   height: 400px;
   background-color: #3678ff;
@@ -408,7 +408,7 @@ img {
 
 
 @media only screen and (min-width: 600px) {
-  .section-top {
+  .section-header {
     height: 780px;
   }
 
