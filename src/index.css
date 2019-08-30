@@ -321,18 +321,17 @@ img {
   width: 100%;
 }
 
-
-/* ----- Footer ----- */
-.footer {
+/* ----- Summary ----- */
+.summary-section {
   width: 100%;
   background-color: #fff;
 }
 
-.footer-head-section {
+.summary-head-section {
   padding: 150px 0;
 }
 
-.footer-work-together-container {
+.summary-work-together-container {
   width: 50%;
   margin: 0 auto;
 }
@@ -348,6 +347,11 @@ img {
   text-align: center;
   font-size: 1em;
   font-weight: 400;
+}
+
+/* ----- Footer ----- */
+.footer {
+  width: 100%;
 }
 
 .footer-tail-section {
@@ -563,15 +567,14 @@ img {
     grid-row-start: 3;
     grid-row-end: 4;
   }
-
-  /* ----- Footer ----- */
-  .footer-head-section {
+  /* ----- Summary ----- */
+  .summary-head-section {
     height: 780px;
     display: flex;
     align-items: center;
   }
 
-  .footer-work-together-container {
+  .summary-work-together-container {
     max-width: 800px;
   }
 
@@ -584,6 +587,7 @@ img {
     font-size: 1.75em;
   }
 
+  /* ----- Footer ----- */
   .footer-tail-section {
     height: 148px;
     display: flex;

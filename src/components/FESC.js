@@ -1,38 +1,79 @@
-import React from 'react';
+import React, {Component} from 'react';
 //import {NavLink} from 'react-router-dom'
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import './../css/fesc.css'
+import ProjectHeader from './ProjectHeader'
+import ProjectDescription from './ProjectDescription'
+import Footer from './Footer'
+import './../css/projects.css'
+import fescHome from '../img/fescHomepage.png'
+import fescFields from '../img/fescFields.png'
+import fescTeam from '../img/fescTeam.png'
 
-const FESC= () => {
-  return(
-    <div className="fesc-page-container">
-      <div className="temp-container">
-        <a href="https://bmhan319.github.io/FloridaEnergySystemsConsortium-redesign/">Go</a>
-        <NavLink to="/conquer">
-          <button type="button">Conquer</button>
-        </NavLink>
-        <NavLink to="/calc">
-          <button type="button">Calculator</button>
-        </NavLink>
+
+
+class FESC extends Component {
+  state = {
+    title: "Florida Energy Systems Consortium",
+    subtitle: "Site Redesign",
+    cssClass: "fesc",
+    descriptionTitle: "FESC",
+    descriptionText: "FESC - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore ullam consequatur rem exercitationem odit nihil officia, unde provident nam sint fuga eius. Autem assumenda ut sapiente aperiam nihil non.",
+  
+  }
+
+  render() {
+    return(
+      <div className="project-wrapper">
+        <ProjectHeader project={this.state}/>
+        <ProjectDescription project={this.state}/>
+        <section className="project-section">
+          <div className="project-img-container">
+            <img src={fescHome} alt="fesc homepage" className="project-img"/>
+          </div>
+        </section>
+        <section className="project-section2">
+          <div className="project-section2-top"></div>
+          <div className="project-section2-bottom"></div>
+          <div className="project-section2-content-container">
+            <div className="project-img-container2">
+              <img src={fescFields} alt="fesc fields page" className="project-img"/>
+            </div>
+            <div className="project-img-container3">
+              <img src={fescTeam} alt="fesc team page" className="project-img"/>
+            </div>
+          </div>
+        </section>
+        <section className="technologies-section">
+          <div className="technologies-container">
+            <div className="technologies-title-container">
+              <h2 className="technologies-title">Technologies</h2>
+            </div>
+            <div className="technologies-text-container">
+              <p className="technologies-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore ullam consequatur rem exercitationem odit nihil officia, unde provident nam sint fuga eius. Autem assumenda ut sapiente aperiam nihil non.
+              </p>
+              <a href="https://bmhan319.github.io/FloridaEnergySystemsConsortium-redesign/">Go</a>
+            </div>
+          </div>
+        </section>
+        <section className="navigate-section">
+          <div className="navigate-row1">
+            <div className="navigate-prev">
+              <NavLink to="/conquer">
+                Conquer
+              </NavLink>
+            </div>
+            <div className="navigate-next">
+              <NavLink to="/calc">
+                Calculator
+              </NavLink>
+            </div>
+          </div>
+        </section>
+        <Footer />
       </div>
-      <header className="fesc-header-section">
-        <div className="home-container">
-          <NavLink to="/#work">
-            <svg className="home-icon" fill="#fff" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-7 0 40 40">
-              <path d="M21 13v10h-6v-6h-6v6h-6v-10h-3l12-12 12 12h-3zm-1-5.907v-5.093h-3v2.093l3 3z"/>
-            </svg>
-          </NavLink>
-        </div>
-        <div className="fesc-header-inner-container">
-          <h1 className="fesc-title">Florida Energy Systems Consortium</h1>
-          <p className="fesc-subtitle">Site Redesign</p>
-        </div>
-      </header>
-      <section className="description-section">
-
-      </section>
-    </div>
-  )
+    )
+  }
 }
 
 export default FESC

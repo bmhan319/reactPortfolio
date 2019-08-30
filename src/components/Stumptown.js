@@ -1,30 +1,39 @@
-import React from 'react';
+import React, {Component} from 'react';
 //import {NavLink} from 'react-router-dom'
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import '../css/stumptown.css'
+import ProjectHeader from './ProjectHeader'
+import ProjectDescription from './ProjectDescription'
+import Footer from './Footer'
+import './../css/projects.css'
 
-const Stumptown= () => {
-  return(
-    <div className ="stumptown-page-container">
-      <div className="temp-container">
-        <NavLink to="/#work">Home</NavLink>
-        <a href="https://bmhan319.github.io/stumptown/">Go</a>
-        <NavLink to="/calc">
-          <button type="button">Calculator</button>
-        </NavLink>
-        <NavLink to="/bonappetit">
-          <button type="button">BonAppetit</button>
-        </NavLink>
-      </div>
-      <header className="stumptown-header-outer-container">
-        <div className="stumptown-header-inner-container">
-          <h1 className="stumptown-title">Stumptown Coffee</h1>
-          <p className="stumptown-subtitle">Site Recreation</p>
-          <button className="stumptown-visit">VISIT THE MOCK SITE</button>
+class Stumptown extends Component {
+  state = {
+    title: "Stumptown Coffee",
+    subtitle: "Site Recreation",
+    cssClass: "stumptown",
+    descriptionTitle: "STUMPTOWN",
+    descriptionText: "Stumptown - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore ullam consequatur rem exercitationem odit nihil officia, unde provident nam sint fuga eius. Autem assumenda ut sapiente aperiam nihil non.",
+
+  }
+
+  render() {
+    return(
+      <div className="project-wrapper">
+        <ProjectHeader project={this.state}/>
+        <ProjectDescription project={this.state}/>
+        <div className="temp-container">
+          <a href="https://bmhan319.github.io/stumptown/">Go</a>
+          <NavLink to="/calc">
+            <button type="button">Calculator</button>
+          </NavLink>
+          <NavLink to="/bonappetit">
+            <button type="button">BonAppetit</button>
+          </NavLink>
         </div>
-      </header>
-    </div>
-  )
+         <Footer />
+      </div>
+    )
+  }
 }
 
 export default Stumptown
