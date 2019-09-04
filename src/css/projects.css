@@ -8,6 +8,32 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* -----Underline Link Effect----- */
+.navigate-prev .hover,
+.navigate-next .hover {
+  position: relative;
+}
+
+.navigate-prev .hover::before,
+.navigate-next .hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #000;
+  transform-origin: right;
+  transition: transform .2s ease-out;
+}
+
+.navigate-prev .hover:hover::before, 
+.navigate-next .hover:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
 /* -----Project Colors ----- */
 .calc-color {
   color: rgba(255, 165, 0, 1);
@@ -55,6 +81,30 @@
 
 .conquer-bgcolor {
   background-color: rgba(201, 48, 45, 1);
+}
+
+.fesc-hr {
+  border-color: rgba(60, 177, 210, 1);
+}
+
+.calc-hr {
+  border-color: rgba(255, 165, 0, 1);
+}
+
+.stumptown-hr {
+  border-color: rgba(67, 157, 67, 1);
+}
+
+.bonapp-hr {
+  border-color: rgba(255, 219, 0, 1);
+}
+
+.block-hr {
+  border-color: rgba(255, 124, 85, 1);
+}
+
+.conquer-hr {
+  border-color: rgba(201, 48, 45, 1);
 }
 
 /* ----- Header ----- */
@@ -107,26 +157,27 @@
 }
 
 .description-container {
+  width: 100%;
   max-width: 800px;
   padding: 0 4%;
-}
-
-.description-title-container {
-  text-align: center;
-  padding-bottom: 23px;
 }
 
 .description-title {
   font-size: 1.75em;
 }
 
-.description-text-container {
-  text-align: center;
+.horizontal-line {
+  width: 100%;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .description-text {
   font-size: 1.75em;
+  padding: 24px 0;
+  line-height: 1.5em;
 }
+
 
 /*----- Project Section ------ */
 .project-section {
@@ -186,31 +237,56 @@
   height: 780px;
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.technologies-container {
+.technologies-container,
+.resources-container {
+  width: 100%;
   max-width: 800px;
   padding: 0 4%;
 }
 
-.technologies-title-container {
-  text-align: center;
-  padding-bottom: 23px;
+.resources-container {
+  padding-top: 80px;
 }
 
-.technologies-title {
+.technologies-title-container,
+.resources-title-container {
+}
+
+.technologies-title,
+.resources-title {
   font-size: 1.75em;
-  color: #3cb1d2;
 }
 
-.technologies-text-container {
-  text-align: center;
+.technologies-text-container,
+.resources-text-container  {
+  padding: 0 28px;
 }
 
-.technologies-text {
+.technologies-text-list,
+.resources-text-list  {
+ list-style: circle;
+}
+
+.technologies-text,
+.resources-text {
   font-size: 1.75em;
+  padding-top: 8px;
+}
+
+.resources-text a {
+  text-decoration: none;
+}
+
+.tech-horizontal-line {
+  width: 100%;
+  border-width: 2px;
+  border-style: solid;
+  margin: 12px 0;
 }
 
 /*----- Navigate Section ----- */
@@ -233,4 +309,8 @@
   color: #000;
   text-decoration: none;
   font-size: 1.75em;
+}
+
+.arrow {
+  height: 1em;
 }

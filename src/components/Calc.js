@@ -12,8 +12,15 @@ class Calc extends Component {
     subtitle: "React Project",
     cssClass: "calc",
     descriptionTitle: "CALCULATOR",
-    descriptionText: "Calculator - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore ullam consequatur rem exercitationem odit nihil officia, unde provident nam sint fuga eius. Autem assumenda ut sapiente aperiam nihil non.",
-
+    descriptionText1: "This was a class project from the UW Front-End Developer Certification course.",
+    descriptionText2: "The idea was to redesign three pages of the FESC website.  I chose to do the Homepage, Meet the Team, Research -> Fields pages.  Additionally, a fourth page was added (About Us -> Energy Report) where we utilized google charts and the API from the U.S. Energy Info Administration.",
+    tech1: "HTML",
+    tech2: "CSS",
+    tech3: "Javascript",
+    tech4: "",
+    tech5: "",
+    gitHub: "https://github.com/bmhan319/CSSGrid-Conquer-Page",
+    gitPage: "https://bmhan319.github.io/FloridaEnergySystemsConsortium-redesign/",
   }
 
   render() {
