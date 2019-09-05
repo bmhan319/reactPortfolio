@@ -6,9 +6,9 @@ import ProjectTech from './ProjectTech'
 import ProjectNav from './ProjectNav'
 import Footer from './Footer'
 import './../css/projects.css'
-import block1 from '../img/block1.png'
-import block2 from '../img/block2.png'
-import block3 from '../img/block3.png'
+import stump1 from '../img/stump1.png'
+import stump2 from '../img/stump2.png'
+import stump3 from '../img/stump3.png'
 
 class Stumptown extends Component {
   state = {
@@ -17,8 +17,8 @@ class Stumptown extends Component {
     cssClass: "stumptown",
     descriptionTitle: "STUMPTOWN",
     descriptionText1: "This project was a Webpage recreation",
-    descriptionText2: "I chose this site to recreate b/c it had some interesting features to it that I wanted to see if I would be able to recreate.  There was a sliding carousel of reviews, a photo slideshow as well an animation of the block logo at the footer.",
-    image: [block1,block2,block3],
+    descriptionText2: "I was searching the internet looking for an interesting site when I checked out the Stumptown site.  I noticed that every product page followed the same general template.  Also, the page had some interesting features to them. I wanted to see if I would be able to create a product page template and have it fill in the appropriate data, images and colors depending on the chosen product.  Over the course of recreating the site, I also got curious as to how data would move into a shopping cart and explored some of the processes behind that.",
+    image: [stump1,stump2,stump3],
     alt:["conquer top page","conquer repsonsive page","conquer repsonsive page"],
     tech1: "HTML",
     tech2: "CSS",

@@ -6,9 +6,7 @@ import ProjectTech from './ProjectTech'
 import ProjectNav from './ProjectNav'
 import Footer from './Footer'
 import './../css/projects.css'
-import block1 from '../img/block1.png'
-import block2 from '../img/block2.png'
-import block3 from '../img/block3.png'
+import calc1 from '../img/calc1.png'
 
 class Calc extends Component {
   state = {
@@ -16,13 +14,13 @@ class Calc extends Component {
     subtitle: "React Project",
     cssClass: "calc",
     descriptionTitle: "CALCULATOR",
-    descriptionText1: "This was a class project from the UW Front-End Developer Certification course.",
-    descriptionText2: "The idea was to redesign three pages of the FESC website.  I chose to do the Homepage, Meet the Team, Research -> Fields pages.  Additionally, a fourth page was added (About Us -> Energy Report) where we utilized google charts and the API from the U.S. Energy Info Administration.",
-    image: [block1,block2,block3],
+    descriptionText1: "Creating a calculator using React",
+    descriptionText2: "After watching some React tutorials, I was looking for my first React project and saw that creating a calculator was suggested on many sites.  Instead of following a calculator tutorial, I decided to see if this was something I could do on my own without any help. The calculator was built using CSS-Grid and made to look and have the same functionalities of the Mac calculator." ,
+    image: [calc1,"",""],
     alt:["conquer top page","conquer repsonsive page","conquer repsonsive page"],
     tech1: "HTML",
     tech2: "CSS",
-    tech3: "Javascript",
+    tech3: "Javascript, React",
     tech4: "",
     tech5: "",
     gitHub: "https://github.com/bmhan319/reactCalc",
