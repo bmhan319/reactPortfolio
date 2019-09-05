@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
-//import {NavLink} from 'react-router-dom'
-import { NavHashLink as NavLink } from 'react-router-hash-link';
 import ProjectHeader from './ProjectHeader'
 import ProjectDescription from './ProjectDescription'
+import ProjectWork from './ProjectWork'
+import ProjectTech from './ProjectTech'
+import ProjectNav from './ProjectNav'
 import Footer from './Footer'
 import './../css/projects.css'
+import block1 from '../img/block1.png'
+import block2 from '../img/block2.png'
+import block3 from '../img/block3.png'
 
 class Stumptown extends Component {
   state = {
@@ -12,8 +16,19 @@ class Stumptown extends Component {
     subtitle: "Site Recreation",
     cssClass: "stumptown",
     descriptionTitle: "STUMPTOWN",
-    descriptionText: "Stumptown - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dolore ullam consequatur rem exercitationem odit nihil officia, unde provident nam sint fuga eius. Autem assumenda ut sapiente aperiam nihil non.",
-
+    descriptionText1: "This project was a Webpage recreation",
+    descriptionText2: "I chose this site to recreate b/c it had some interesting features to it that I wanted to see if I would be able to recreate.  There was a sliding carousel of reviews, a photo slideshow as well an animation of the block logo at the footer.",
+    image: [block1,block2,block3],
+    alt:["conquer top page","conquer repsonsive page","conquer repsonsive page"],
+    tech1: "HTML",
+    tech2: "CSS",
+    tech3: "JavaScript",
+    gitHub: "https://github.com/bmhan319/stumptown",
+    gitPage: "https://bmhan319.github.io/stumptown/",
+    prev: "Calculator",
+    next: "Bon Appetit",
+    prevLink: "/calc",
+    nextLink: "/bonappetit",
   }
 
   render() {
@@ -21,16 +36,10 @@ class Stumptown extends Component {
       <div className="project-wrapper">
         <ProjectHeader project={this.state}/>
         <ProjectDescription project={this.state}/>
-        <div className="temp-container">
-          <a href="https://bmhan319.github.io/stumptown/">Go</a>
-          <NavLink to="/calc">
-            <button type="button">Calculator</button>
-          </NavLink>
-          <NavLink to="/bonappetit">
-            <button type="button">BonAppetit</button>
-          </NavLink>
-        </div>
-         <Footer />
+        <ProjectWork project={this.state}/>
+        <ProjectTech project={this.state}/>
+        <ProjectNav project={this.state}/>
+        <Footer />
       </div>
     )
   }
