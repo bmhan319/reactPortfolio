@@ -3,7 +3,7 @@ import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 const ProjectHeader = (props) => {
   return(
-    <header className={`project-header-section ${props.project.cssClass}-bgcolor`}>
+    <header className={`project-header-section ${props.project.cssClass}-image bg-image`}>
       <div className="homepage-container">
         <NavLink to="/#work">
           <svg className="home-icon" fill="#fff" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-7 0 40 40">
@@ -13,7 +13,6 @@ const ProjectHeader = (props) => {
       </div>
       <div className="project-header-inner-container">
         <h1 className="project-title">{props.project.title}</h1>
-        <p className="project-subtitle">{props.project.subtitle}</p>
       </div>
     </header>
   )

@@ -13,10 +13,9 @@ import stump3 from '../img/stump3.png'
 class Stumptown extends Component {
   state = {
     title: "Stumptown Coffee",
-    subtitle: "Site Recreation",
     cssClass: "stumptown",
-    descriptionTitle: "STUMPTOWN",
-    descriptionText1: "This project was a Webpage recreation",
+    descriptionTitle: "stumptown",
+    descriptionText1: "Webpage recreation",
     descriptionText2: "I was searching the internet looking for an interesting site when I checked out the Stumptown site.  I noticed that every product page followed the same general template.  Also, the page had some interesting features to them. I wanted to see if I would be able to create a product page template and have it fill in the appropriate data, images and colors depending on the chosen product.  Over the course of recreating the site, I also got curious as to how data would move into a shopping cart and explored some of the processes behind that.",
     image: [stump1,stump2,stump3],
     alt:["conquer top page","conquer repsonsive page","conquer repsonsive page"],
