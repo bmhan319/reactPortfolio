@@ -2,9 +2,9 @@ import React from 'react'
 import stumptown from '../img/stumptown-tn.png'
 import bonapp from '../img/bonapp-tn.png'
 import block from '../img/block-tn.png'
-import conquer from '../img/conquer.png'
-import fesc from '../img/fesc.jpg'
-import calc from '../img/reactCalc.png'
+import conquer from '../img/conquer-tn.png'
+import fesc from '../img/fesc-tn.png'
+import calc from '../img/calc-tn.png'
 import {NavLink} from 'react-router-dom'
 
 const Work = () => {
@@ -19,7 +19,6 @@ const Work = () => {
           <div className="projects project1">
             <figure class="effect effect-calc">
               <img className="effect-img calc-img" src={calc} alt="calculator"/>
-              <div className="colorlayer-calc"></div>
               <figcaption className="effect-caption calc-caption">
                 <h2 className="effect-title calc-title">Calculator</h2>
                 <p className="effect-text calc-text">Made using React</p>
@@ -60,7 +59,6 @@ const Work = () => {
           <div className="projects project5">
             <figure class="effect effect-conquer">
               <img className="effect-img conquer-img" src={conquer} alt="Conquer"/>
-              <div className="colorlayer-conquer"></div>
               <figcaption className="effect-caption conquer-caption">
                 <h2 className="effect-title conquer-title">Conquer</h2>
                 <p className="effect-text conquer-text">Recreating the homepage on the Conquer Web Template</p>
@@ -71,7 +69,6 @@ const Work = () => {
           <div className="projects project6">
             <figure class="effect effect-fesc">
               <img className="effect-img fesc-img" src={fesc} alt="FESC"/>
-              <div className="colorlayer-fesc"></div>
               <figcaption className="effect-caption fesc-caption">
                 <h2 className="effect-title fesc-title">F.E.S.C</h2>
                 <p className="effect-text fesc-text">Redesigned a few pages of the FESC website</p>

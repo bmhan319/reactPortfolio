@@ -44,10 +44,10 @@
   /*--stump-green: rgba(67, 157, 67, 1); #439d43; alt orange */
   --fesc-color: #73975b;
   /*--fesc: rgba(60, 177, 210, 1);  #3cb1d2; alt blue */
-  --calc-color: rgba(255, 165, 0, 1);
-  /* --calc: rgba(255, 165, 0, 1) #ffa500 * alt orange */
-  --conquer-color: rgba(201, 48, 45, 1);
-  /* --conquer: rgba(201, 48, 45, 1) #c9302d; * alt red */
+  --calc-color: #FFA500;
+  /* --calc: rgba(255, 165, 0, 1) #ffa500 alt orange */
+  --conquer-color: #cf3c43;
+  /* --conquer: rgba(201, 48, 45, 1) #c9302d; alt red */
   
 }
 
@@ -157,12 +157,11 @@
 }
 
 .calc-image {
-  background-image: url('../img/calc-detail.jpg');
-  background-color: var(--calc-color);
+  background-image: url('../img/calc-detail.png');
 }
 
 .conquer-image {
-  background-color: var(--conquer-color);
+  background-image: url('../img/conquer-detail.png');
 }
 
 .homepage-container {
@@ -372,9 +371,6 @@ padding-bottom: 40px;
   color: #000;
   text-decoration: none;
   font-size: 1.75em;
-}
-
-.arrow-container {
 }
 
 .arrow {
