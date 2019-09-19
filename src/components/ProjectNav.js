@@ -11,7 +11,7 @@ const ProjectNav = (props) => {
         <div className="navigate-row1">
           <div className="navigate-prev">
             <NavLink to={props.project.prevLink} className="hover">
-              <span>
+              <span className="arrow-container">
                 <img src={leftArrow} alt="left arrow" className="arrow"/>
               </span>
               {props.project.prev}

@@ -157,6 +157,7 @@
 }
 
 .calc-image {
+  background-image: url('../img/calc-detail.jpg');
   background-color: var(--calc-color);
 }
 
@@ -373,6 +374,11 @@ padding-bottom: 40px;
   font-size: 1.75em;
 }
 
+.arrow-container {
+}
+
 .arrow {
   height: 1em;
+  position: relative;
+  top: -2px;
 }
