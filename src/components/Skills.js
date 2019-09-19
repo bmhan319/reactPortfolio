@@ -11,12 +11,12 @@ const Skills = () => {
           <div className="skills-icon-container">
             <img className="skills-icon" src={language} alt="web icon" />
           </div>
-          <div className="skills-language-container">
-            <h3 className="skills-language">Languages</h3>
-            <ul className="skills-language-list">
-              <li className="skills-language-list-item">HTML</li>
-              <li className="skills-language-list-item">CSS</li>
-              <li className="skills-language-list-item">Javascript</li>
+          <div className="skills-list-container">
+            <h3 className="skills-title">Languages</h3>
+            <ul className="skills-list">
+              <li className="skills-list-item">HTML</li>
+              <li className="skills-list-item">CSS</li>
+              <li className="skills-list-item">Javascript</li>
             </ul>
           </div>
         </div>
@@ -25,9 +25,13 @@ const Skills = () => {
           <div className="skills-icon-container">
             <img className="skills-icon" src={web} alt="web icon" />
           </div>
-          <div className="skills-title-container">
+          <div className="skills-list-container">
             <h3 className="skills-title">Web Developer</h3>
-            <p className="skills-text">I enjoy taking great design and bringing them to life on the computer screen.</p>
+            <ul className="skills-list">
+              <li className="skills-list-item">Collaboration</li>
+              <li className="skills-list-item">Problem Solving</li>
+              <li className="skills-list-item">Qucik Thinking</li>
+            </ul>
           </div>         
         </div>
         
@@ -35,12 +39,12 @@ const Skills = () => {
           <div className="skills-icon-container">
             <img className="skills-icon" src={tools} alt="web icon" />
           </div>
-          <div className="skills-language-container">
-            <h3 className="skills-language">Dev Tools</h3>
-            <ul className="skills-language-list">
-              <li className="skills-language-list-item">React</li>
-              <li className="skills-language-list-item">Git</li>
-              <li className="skills-language-list-item">Unix</li>
+          <div className="skills-list-container">
+            <h3 className="skills-title">Dev Tools</h3>
+            <ul className="skills-list">
+              <li className="skills-list-item">React</li>
+              <li className="skills-list-item">Git</li>
+              <li className="skills-list-item">Unix</li>
             </ul>
           </div>
         </div>

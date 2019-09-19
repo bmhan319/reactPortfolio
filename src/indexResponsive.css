@@ -1,0 +1,239 @@
+@media only screen and (min-width: 600px) {
+  .section-header {
+    height: 780px;
+  }
+
+  .nav-menu-container {
+  display: flex;
+  }
+
+  .title {
+    font-size: 4.25em; /*160px*/
+  }
+
+  /* ----- About ----- */
+  .about-section {
+    height: 780px;
+  }
+
+  .about-intro-container {
+    margin-bottom: 23px;
+  }
+
+  .about-intro {
+    font-size: 1.75em;
+  }
+
+  .about-text {
+    font-size: 1.75em;
+    line-height: 38px;
+  }
+
+  /* ----- Skills ----- */
+  .skills-section {
+    width: 100%;
+    height: 780px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10%;
+    max-width: 1000px;
+    padding: 0;
+    border: 2px solid blue;
+  }
+
+  .box {
+    padding: 0;
+    height: auto;
+  }
+
+  .box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .box2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .box3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .skills-icon-container {
+    padding-bottom: 64px;
+  }
+
+  .skills-icon {
+    width: 140px;
+  }
+
+  .skills-list-container {
+    padding: 0;
+  }
+
+  .skills-title {
+    font-weight: bold;
+    font-size: 1.75em;
+    padding-bottom: 42px;
+  }
+
+  .skills-list-item {
+    font-size: 1.75em;
+    padding: 0;
+    line-height: 1.36em;
+  }
+
+
+
+
+  /* ----- Work -----*/
+  .work-container{
+    margin: 0 auto;
+    padding: 140px 14%;
+    max-width: 1400px;
+  }
+
+  .work-title-container {
+    text-align: center;
+    margin-bottom: 86px;
+  }
+
+  .work-title {
+    padding-bottom: 6px;
+    font-size: 1.75em;
+    font-weight: bold;
+  }
+
+  .work-statement {
+    font-size: 1.75em;
+  }
+
+  .work-project-container {
+    grid-template-columns:1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  .project1,
+  .project3,
+  .project5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .project2,
+  .project4,
+  .project6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .project1,
+  .project2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .project3,
+  .project4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .project5,
+  .project6 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  /* ----- Summary ----- */
+  .summary-head-section {
+    height: 780px;
+    display: flex;
+    align-items: center;
+  }
+
+  .summary-work-together-container {
+    max-width: 800px;
+  }
+
+  .work-together-title {
+    padding-bottom: 23px;
+    font-size: 1.75em;
+  }
+
+  .work-together-text {
+    font-size: 1.75em;
+  }
+
+  /* ----- Footer ----- */
+  .footer-tail-section {
+    height: 148px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-row {
+    width: 100%;
+    display: flex;
+  }
+
+  .footer-col1,
+  .footer-col2 {
+    width: 30%;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-col2 {
+    width: 70%;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .footer-name {
+    font-size: 1em;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .footer-position {
+    font-size: 1em;
+    font-weight: 400;
+    padding-left: 8px;
+  }
+
+  .footer-email,
+  .footer-resume,
+  .footer-linkedin,
+  .footer-git {
+    font-size: 1em;
+    font-weight: 700;
+    padding-top: 0;
+    margin-left: 32px;
+  }
+
+  .footer-email-link {
+    font-weight: 400;
+  }
+
+  .footer-resume-container,
+  .footer-linkedin-container,
+  .footer-git-container {
+    padding-top: 0;
+  }
+}
