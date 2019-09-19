@@ -25,6 +25,9 @@ const ProjectTech = (props) => {
           <hr className={`tech-horizontal-line ${props.project.cssClass}-hr`}/>
           <div className="resources-text-container">
             <ul className="resources-text-list">
+              <li className={`resources-text ${props.project.cssClass}-visible`}>
+                Original Site: <a className={`${props.project.cssClass}-color`} href={props.project.originalSite}>{props.project.title}</a>
+              </li>
               <li className="resources-text">
                 The GitHub repository is located here: <a className={`${props.project.cssClass}-color`} href={props.project.gitHub}>Github</a>
               </li>

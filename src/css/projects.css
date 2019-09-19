@@ -37,15 +37,18 @@
 /* -----Project Colors ----- */
 :root {
   --bonapp-color: #dab907;
-  /*--bonapp-yellow: rgba(255, 219, 0, 1);  alt yellow */
+  /*--bonapp-yellow: rgba(255, 219, 0, 1); #ffdb00; alt yellow */
   --block-color: #dd6b49;
-  /*--block-orange: rgba(255, 124, 85, 1);  alt orange */
+  /*--block-orange: rgba(255, 124, 85, 1); #ff7c55; alt orange */
   --stump-color: #bf955a;
-  /*--stump-green: rgba(67, 157, 67, 1);  alt orange */
+  /*--stump-green: rgba(67, 157, 67, 1); #439d43; alt orange */
   --fesc-color: #73975b;
-  /*--fesc: rgba(60, 177, 210, 1);  alt blue */
+  /*--fesc: rgba(60, 177, 210, 1);  #3cb1d2; alt blue */
   --calc-color: rgba(255, 165, 0, 1);
+  /* --calc: rgba(255, 165, 0, 1) #ffa500 * alt orange */
   --conquer-color: rgba(201, 48, 45, 1);
+  /* --conquer: rgba(201, 48, 45, 1) #c9302d; * alt red */
+  
 }
 
 .bonapp-color {
@@ -212,7 +215,7 @@
 
 .description-subtitle {
   font-size: 1.25em;
-  padding: 0px 0;
+  padding: 8px 0;
   font-weight: 400;
 }
 
@@ -246,6 +249,10 @@
 
 .project-last-section {
   padding-bottom: 100px;
+}
+
+.project-calc-noshow {
+  display: none;
 }
 
 .project-section-wrapper {
@@ -337,6 +344,11 @@ padding-bottom: 40px;
   border-width: 2px;
   border-style: solid;
   margin: 12px 0;
+}
+
+.conquer-visible,
+.calc-visible {
+  display: none;
 }
 
 /*----- Navigate Section ----- */

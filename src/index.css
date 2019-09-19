@@ -321,6 +321,51 @@ img {
   width: 100%;
 }
 
+.effect-conquer,
+.effect-fesc,
+.effect-calc {
+  position: relative;
+}
+
+.conquer-img,
+.fesc-img,
+.calc-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: contrast(250%);
+  filter: grayscale(100%);
+}
+
+.colorlayer-conquer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(201, 48, 45, .6);
+}
+
+.colorlayer-fesc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(115, 151, 91, .6);
+}
+
+.colorlayer-calc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 165, 0, .6);
+}
+
 /* ----- Summary ----- */
 .summary-section {
   width: 100%;
@@ -654,27 +699,27 @@ img {
 }
 
 .effect-calc {
-  background-color: #ffa500
+  background-color: var(--calc-color)
 }
 
 .effect-stumptown {
-  background-color: #439d43;
+  background-color: var(--stump-color)
 }
 
 .effect-bonapp {
-  background-color: #ffdb00;
+  background-color: var(--bonapp-color);
 }
 
 .effect-block {
-  background-color: #ff7c55;
+  background-color: var(--block-color)
 }
 
 .effect-conquer {
-  background-color: #c9302d;
+  background-color: var(--conquer-color)
 }
 
 .effect-fesc {
-  background-color: #3cb1d2;
+  background-color: var(--fesc-color)
 }
 
 .effect-img {
