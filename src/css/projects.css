@@ -226,12 +226,17 @@
 }
 
 .visit-button {
-  width: 226px;
-  height: 60px;
-  margin-top: 36px;
-  font-size: 1em;
+  width: 180px;
+  height: 40px;
+  margin-top: 18px;
+  font-size: .9em;
   border: 0;
   outline: transparent;
+  cursor: pointer;
+}
+
+.visit-button:hover {
+  filter: brightness(115%);
 }
 
 /*----- Project Section ------ */

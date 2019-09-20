@@ -12,7 +12,7 @@ const ProjectDescription = (props) => {
           <hr className={`horizontal-line ${props.project.cssClass}-hr`}/>
           <p className="description-text">{props.project.descriptionText2}</p>
           <form action={props.project.gitPage} target="_blank">
-            <button className={`visit-button ${props.project.cssClass}-bg`} type="submit">Visit Site Recreation</button>
+            <button className={`visit-button ${props.project.cssClass}-bg hover-pop`} type="submit">Visit Site Recreation</button>
           </form>
         </div>
       </div>
