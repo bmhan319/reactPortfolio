@@ -164,11 +164,11 @@
   }
 
   .effect-title {
-    font-size: 1.75em;
+    font-size: 1em;
   }
 
   .effect-text {
-    font-size: 1.2em;
+    font-size: .8em;
   }
   /* ----- Summary ----- */
   .summary-head-section {
@@ -282,6 +282,14 @@
 
   .skills-list-item {
     font-size: 1.75em;
+  }
+
+  .effect-title {
+    font-size: 1.75em;
+  }
+
+  .effect-text {
+    font-size: 1.2em;
   }
 
   .footer-name {
