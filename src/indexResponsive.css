@@ -217,13 +217,12 @@
   }
 
   .footer-name {
-    font-size: 1em;
+    font-size: .9em;
     font-weight: 700;
     text-align: left;
   }
 
   .footer-position {
-    font-size: 1em;
     font-weight: 400;
     padding-left: 8px;
   }
@@ -232,7 +231,7 @@
   .footer-resume,
   .footer-linkedin,
   .footer-git {
-    font-size: 1em;
+    font-size: .9em;
     font-weight: 700;
     padding-top: 0;
     margin-left: 32px;
@@ -283,5 +282,16 @@
 
   .skills-list-item {
     font-size: 1.75em;
+  }
+
+  .footer-name {
+    font-size: 1em;
+  }
+
+  .footer-email,
+  .footer-resume,
+  .footer-linkedin,
+  .footer-git {
+    font-size: 1em;
   }
 }

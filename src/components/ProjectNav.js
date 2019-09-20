@@ -10,16 +10,16 @@ const ProjectNav = (props) => {
       <section className="navigate-section">
         <div className="navigate-row1">
           <div className="navigate-prev">
-            <NavLink to={props.project.prevLink} className="hover">
+            <NavLink to={props.project.prevLink}>
               <span className="arrow-container">
                 <img src={leftArrow} alt="left arrow" className="arrow"/>
               </span>
-              {props.project.prev}
+              <span className="nav-project-container hover">{props.project.prev}</span>
             </NavLink>
           </div>
           <div className="navigate-next">
-            <NavLink to={props.project.nextLink} className="hover">
-              {props.project.next}
+            <NavLink to={props.project.nextLink}>
+              <span className="nav-project-container hover">{props.project.next}</span>
               <span>
                 <img src={rightArrow} alt="right arrow" className="arrow"/>
               </span>

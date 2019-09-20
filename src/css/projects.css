@@ -238,7 +238,6 @@
 .project-section {
   width: 100%;
   padding-top: 50px;
-  
 }
 
 .project-last-section {
@@ -285,7 +284,7 @@ padding-bottom: 20px;
 .technologies-section {
   width: 100%;
   background-color: #f5f5f5;
-  height: 780px;
+  height: 580px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -295,22 +294,18 @@ padding-bottom: 20px;
 
 .technologies-container,
 .resources-container {
-  width: 100%;
+  width: 80%;
   max-width: 800px;
-  padding: 0 4%;
 }
 
 .resources-container {
   padding-top: 80px;
 }
 
-.technologies-title-container,
-.resources-title-container {
-}
-
 .technologies-title,
 .resources-title {
-  font-size: 1.75em;
+  font-size: 1em;
+  font-weight: bold
 }
 
 .technologies-text-container,
@@ -325,7 +320,7 @@ padding-bottom: 20px;
 
 .technologies-text,
 .resources-text {
-  font-size: 1.75em;
+  font-size: 1em;
   padding-top: 8px;
 }
 
@@ -348,7 +343,7 @@ padding-bottom: 20px;
 /*----- Navigate Section ----- */
 .navigate-section {
   width: 100%;
-  height: 200px;
+  height: 100px;
   display: flex;
   align-items: center;
   padding: 0 4%;
@@ -364,7 +359,7 @@ padding-bottom: 20px;
 .navigate-next a {
   color: #000;
   text-decoration: none;
-  font-size: 1.75em;
+  font-size: 1em;
 }
 
 .arrow {

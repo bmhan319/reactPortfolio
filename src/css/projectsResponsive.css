@@ -44,8 +44,48 @@
     font-size: 1.2em;
   }
 
+  .technologies-section {
+    height: 780px;
+  }
+
+  .technologies-container,
+  .resources-container{
+    width: 63%;
+    max-width: 800px;
+  }
+
+  .technologies-title,
+  .resources-title,
+  .technologies-text,
+  .resources-text {
+    font-size: 1.25em;
+  }
+
+  .navigate-section {
+    height: 150px;
+  }
+
+  .navigate-prev a,
+  .navigate-next a {
+    font-size: 1.25em;
+  }
+
 }
 
 @media only screen and (min-width: 1008px) {
-  
+  .technologies-title,
+  .resources-title,
+  .technologies-text,
+  .resources-text {
+    font-size: 1.75em;
+  }
+
+  .navigate-section {
+    height: 200px;
+  }
+
+  .navigate-prev a,
+  .navigate-next a {
+    font-size: 1.75em;
+  }
 }
