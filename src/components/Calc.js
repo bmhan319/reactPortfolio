@@ -5,7 +5,6 @@ import ProjectWork from './ProjectWork'
 import ProjectTech from './ProjectTech'
 import ProjectNav from './ProjectNav'
 import Footer from './Footer'
-import './../css/projects.css'
 import calc1 from '../img/calc1.png'
 
 class Calc extends Component {

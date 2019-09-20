@@ -1,0 +1,51 @@
+@media only screen and (min-width: 640px) {
+  .project-title {
+    font-size: 4.25em;
+  }
+
+  .description-section {
+    padding: 150px 0;
+  }
+
+  .description-container {
+    width: 62.5%;
+    text-align: center;
+  }
+
+  .description-title {
+    font-size: 1.75em;
+  }
+
+  .description-subtitle {
+    font-size: 1.25em;
+  }
+
+  .description-text {
+    font-size: 1.75em;
+  }
+
+  .project-section {
+    padding-top: 100px;
+  }
+
+  .project-section-wrapper {
+    width: 62.5%;
+  }
+
+  .project-img-container {
+    padding-bottom: 40px;
+  } 
+
+  .project-img-description-header {
+    font-size: 1.2em;
+  }
+
+  .project-img-description {
+    font-size: 1.2em;
+  }
+
+}
+
+@media only screen and (min-width: 1008px) {
+  
+}

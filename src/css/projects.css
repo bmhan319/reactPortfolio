@@ -165,7 +165,7 @@
 }
 
 .homepage-container {
-  top:60px;
+  top: 60px;
   left: 50%;
   transform: translateX(-50%);
   position: absolute;  
@@ -180,21 +180,14 @@
   margin: 0;
   color: #fff;
   font-weight: 500;
-  font-size: 4.25em;
+  font-size: 3.25em;
   padding-bottom: 64px;
-  text-align: center;
-}
-
-.project-subtitle {
-  color: #fff;
-  font-weight: 500;
-  font-size: 1.5em;
   text-align: center;
 }
 
 /*----- Description Section ----- */
 .description-section {
-  padding: 150px 0;
+  padding: 80px 0;
   width: 100%;
   background-color: #fff;
   position: relative;
@@ -204,17 +197,16 @@
 }
 
 .description-container {
-  width: 62.5%;
+  width: 80%;
   max-width: 800px;
-  text-align: center;
 }
 
 .description-title {
-  font-size: 1.75em;
+  font-size: 1.25em;
 }
 
 .description-subtitle {
-  font-size: 1.25em;
+  font-size: 1em;
   padding: 8px 0;
   font-weight: 400;
 }
@@ -226,7 +218,7 @@
 }
 
 .description-text {
-  font-size: 1.75em;
+  font-size: 1.25em;
   /*font-size: 1.25em;*/
   padding: 24px 0;
   line-height: 1.5em;
@@ -239,12 +231,14 @@
   margin-top: 36px;
   font-size: 1em;
   border: 0;
+  outline: transparent;
 }
 
 /*----- Project Section ------ */
 .project-section {
   width: 100%;
-  padding-top: 100px;
+  padding-top: 50px;
+  
 }
 
 .project-last-section {
@@ -256,7 +250,7 @@
 }
 
 .project-section-wrapper {
-  width: 62.5%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -268,7 +262,7 @@
 }
 
 .project-img-container {
-padding-bottom: 40px;
+padding-bottom: 20px;
 }
 
 .project-img {
@@ -277,13 +271,13 @@ padding-bottom: 40px;
 }
 
 .project-img-description-header {
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.56;
   font-weight: bold;
 }
 
 .project-img-description {
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.56;
 }
 
