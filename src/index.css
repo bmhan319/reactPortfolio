@@ -142,7 +142,6 @@ img {
 
 .about-container {
   width: 60%;
-  max-width: 800px;
   margin: 0;
 }
 
@@ -175,7 +174,6 @@ img {
   margin: 0 auto;
   padding-top: 75px;
   padding-bottom: 50px;
-  max-width: 1000px;
 }
 
 .box {
