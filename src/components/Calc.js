@@ -30,6 +30,7 @@ class Calc extends Component {
     originalSite: "",
     gitHub: "https://github.com/bmhan319/reactCalc",
     gitPage: "https://bmhan319.github.io/reactCalc/",
+    page3: "https://bmhan319.github.io/reactCalc/",
     prev: "FESC",
     next: "Stumptown",
     prevLink: "/fesc",

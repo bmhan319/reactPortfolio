@@ -30,6 +30,8 @@ class Stumptown extends Component {
     originalSite: "https://www.stumptown.com/",
     gitHub: "https://github.com/bmhan319/stumptown",
     gitPage: "https://bmhan319.github.io/stumptown/",
+    page2:"https://bmhan319.github.io/stumptown/product.html",
+    page3: "https://bmhan319.github.io/stumptown/cart.html",
     prev: "Calculator",
     next: "Bon Appetit",
     prevLink: "/calc",

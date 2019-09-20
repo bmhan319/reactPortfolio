@@ -30,6 +30,8 @@ class BonAppetit extends Component {
     originalSite: "https://www.bonappetit.com/",
     gitHub: "https://github.com/bmhan319/bon-appetit",
     gitPage: "https://bmhan319.github.io/bon-appetit/",
+    page2:"https://bmhan319.github.io/bon-appetit/rhubarb.html",
+    page3: "https://bmhan319.github.io/bon-appetit/healthyish.html",
     prev: "Stumptown",
     next: "Block",
     prevLink: "/stumptown",

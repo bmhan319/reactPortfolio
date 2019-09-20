@@ -285,6 +285,10 @@ padding-bottom: 20px;
   line-height: 1.56;
 }
 
+.project-page-link {
+  color: #000;
+}
+
 /*----- Tech Section ----- */
 .technologies-section {
   width: 100%;
