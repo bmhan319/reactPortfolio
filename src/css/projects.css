@@ -56,6 +56,15 @@
   position: absolute;  
 }
 
+.home-icon {
+  -webkit-transition: fill .2s ease-in;  
+  transition: fill .2s ease-in;  
+}
+
+.home-icon:hover {
+  fill: #fff;
+}
+
 .project-header-inner-container {
   max-width: 800px;
   padding: 0 4%;
@@ -117,10 +126,11 @@
   border: 0;
   outline: transparent;
   cursor: pointer;
+  transition: filter .2s ease-in; 
 }
 
 .visit-button:hover {
-  filter: brightness(115%);
+  filter: brightness(125%);
 }
 
 .bonapp-color {
