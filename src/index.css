@@ -109,7 +109,7 @@ img {
   height: 400px;
   padding: 0 3%;
   background-color: #fff;
-  background-image: url('img/abstract.jpg');
+  background-image: url('img/abstract.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -437,7 +437,7 @@ img {
 
 .footer-tail-section {
   width: 100%;
-  background-color: #2C3039;
+  background-color: var(--bg-dark-gray);
   padding: 0 3%;
 }
 
