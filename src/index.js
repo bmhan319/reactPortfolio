@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './css/universalProps.css';
 import './index.css';
 import './indexResponsive.css';
 import './css/projects.css'

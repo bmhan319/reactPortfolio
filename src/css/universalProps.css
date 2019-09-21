@@ -1,0 +1,125 @@
+:root {
+  /* -----Project Colors ----- */
+  --main-blue: #3678ff;
+  --bonapp-color: #dab907;
+  /*--bonapp-yellow: rgba(255, 219, 0, 1); #ffdb00; alt yellow */
+  --block-color: #dd6b49;
+  /*--block-orange: rgba(255, 124, 85, 1); #ff7c55; alt orange */
+  --stump-color: #bf955a;
+  /*--stump-green: rgba(67, 157, 67, 1); #439d43; alt orange */
+  --fesc-color: #73975b;
+  /*--fesc: rgba(60, 177, 210, 1);  #3cb1d2; alt blue */
+  --calc-color: #FFA500;
+  /* --calc: rgba(255, 165, 0, 1) #ffa500 alt orange */
+  --conquer-color: #cf3c43;
+  /* --conquer: rgba(201, 48, 45, 1) #c9302d; alt red */
+  --bg-gray: #f5f5f5;
+  --bg-dark-gray: #2C3039;
+
+  /* -----HomePage Font-Sizes ----- */
+  --home-nav-text: 1em;
+  --home-title-min: 2.5em;
+  --home-title-max: 4.25em;
+  --home-about-title-min: 1.5em;
+  --home-about-title-med: 1.6em;
+  --home-about-title-max: 1.75em;
+  --home-about-text-min: 1em;
+  --home-about-text-med: 1.6em;
+  --home-about-text-max: 1.75em;
+  --home-skills-title-min: 1.15em;
+  --home-skills-title-med: 1em;
+  --home-skills-title-max: 1.75em;
+  --home-skills-text-min: 1em;
+  --home-skills-text-med: 1em;
+  --home-skills-text-max: 1.75em;
+  --home-work-title-min: 1.5em;
+  --home-work-title-max: 1.75em;
+  --home-work-text-min: 1em; 
+  --home-work-text-max: 1.75em;
+  --home-work-effects-title-min: 1.4em;
+  --home-work-effects-title-med: 1em;
+  --home-work-effects-title-max: 1.75em;
+  --home-work-effects-text-min: 1em;
+  --home-work-effects-text-med: .8em;
+  --home-work-effects-text-max: 1.2em;
+  --home-summary-min: 1.25em;
+  --home-summary-max: 1.75em;
+  --footer-name-min: 1.2em;
+  --footer-name-med: .9em;
+  --footer-name-max: 1em;
+  --footer-link-min: 1em;
+  --footer-link-med: .9em;
+  --footer-link-max: 1em;
+
+  /* -----Project Font-Sizes ----- */
+  --title-min: 3.25em;
+  --title-max: 4.25em;
+  --description-title-and-text-min: 1.25em; 
+  --description-title-and-text-max: 1.75em; 
+  --description-subtitle-min: 1em; 
+  --description-subtitle-max: 1.25em; 
+  --description-button: 1em;
+  --project-header-min: 1em;
+  --project-header-max: 1.2em;
+  --project-text-min: 1em;
+  --project-text-max: 1.2em;
+  --tech-title-min: 1em;
+  --tech-title-med: 1.25em;
+  --tech-title-max: 1.75em;
+  --tech-text-min: 1em;
+  --tech-text-med: 1.25em;
+  --tech-text-max: 1.75em;
+  --nav-text-min: 1em;
+  --nav-text-med: 1.25em;
+  --nav-text-max: 1.75em;
+}
+
+
+/* -----Underline Link Effect----- */
+.hover {
+  position: relative;
+}
+
+.hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #fff;
+  transform-origin: right;
+  transition: transform .2s ease-out;
+}
+
+.hover:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+.navigate-prev .hover,
+.navigate-next .hover {
+  position: relative;
+}
+
+.navigate-prev .hover::before,
+.navigate-next .hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #000;
+  transform-origin: right;
+  transition: transform .2s ease-out;
+}
+
+.navigate-prev .hover:hover::before, 
+.navigate-next .hover:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}

@@ -8,47 +8,119 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* -----Underline Link Effect----- */
-.navigate-prev .hover,
-.navigate-next .hover {
-  position: relative;
-}
-
-.navigate-prev .hover::before,
-.navigate-next .hover::before {
-  content: "";
-  position: absolute;
+/* ----- Header ----- */
+.project-header-section {
   width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: -2px;
-  left: 0;
-  background-color: #000;
-  transform-origin: right;
-  transition: transform .2s ease-out;
+  height: 50vh;
+  min-height: 500px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.navigate-prev .hover:hover::before, 
-.navigate-next .hover:hover::before {
-  transform: scaleX(1);
-  transform-origin: left;
+.bg-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* -----Project Colors ----- */
-:root {
-  --bonapp-color: #dab907;
-  /*--bonapp-yellow: rgba(255, 219, 0, 1); #ffdb00; alt yellow */
-  --block-color: #dd6b49;
-  /*--block-orange: rgba(255, 124, 85, 1); #ff7c55; alt orange */
-  --stump-color: #bf955a;
-  /*--stump-green: rgba(67, 157, 67, 1); #439d43; alt orange */
-  --fesc-color: #73975b;
-  /*--fesc: rgba(60, 177, 210, 1);  #3cb1d2; alt blue */
-  --calc-color: #FFA500;
-  /* --calc: rgba(255, 165, 0, 1) #ffa500 alt orange */
-  --conquer-color: #cf3c43;
-  /* --conquer: rgba(201, 48, 45, 1) #c9302d; alt red */
-  
+.bonapp-image {
+  background-image: url('../img/bonapp-detail.png');
+}
+
+.block-image {
+  background-image: url('../img/block-detail.png');
+}
+
+.stumptown-image {
+  background-image: url('../img/stumptown-detail.png');
+}
+
+.fesc-image {
+  background-image: url('../img/fesc-detail.png');
+}
+
+.calc-image {
+  background-image: url('../img/calc-detail.png');
+}
+
+.conquer-image {
+  background-image: url('../img/conquer-detail.png');
+}
+
+.homepage-container {
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;  
+}
+
+.project-header-inner-container {
+  max-width: 800px;
+  padding: 0 4%;
+}
+
+.project-title {
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: var(--title-min);
+  padding-bottom: 64px;
+  text-align: center;
+}
+
+/*----- Description Section ----- */
+.description-section {
+  padding: 80px 0;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description-container {
+  width: 80%;
+  max-width: 800px;
+}
+
+.description-title {
+  font-size: var(--description-title-and-text-min);
+}
+
+.description-subtitle {
+  font-size: var(--description-subtitle-min);
+  padding: 8px 0;
+  font-weight: 400;
+}
+
+.horizontal-line {
+  width: 100%;
+  border-style: solid;
+  display: none
+}
+
+.description-text {
+  font-size: var(--description-title-and-text-min);
+  padding: 24px 0;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+.visit-button {
+  width: 180px;
+  height: 40px;
+  margin-top: 18px;
+  font-size: var(--description-button);
+  border: 0;
+  outline: transparent;
+  cursor: pointer;
+}
+
+.visit-button:hover {
+  filter: brightness(115%);
 }
 
 .bonapp-color {
@@ -123,122 +195,6 @@
   background-color: var(--conquer-color);
 }
 
-/* ----- Header ----- */
-.project-header-section {
-  width: 100%;
-  height: 50vh;
-  min-height: 500px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bg-image {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bonapp-image {
-  background-image: url('../img/bonapp-detail.png');
-}
-
-.block-image {
-  background-image: url('../img/block-detail.png');
-}
-
-.stumptown-image {
-  background-image: url('../img/stumptown-detail.png');
-}
-
-.fesc-image {
-  background-image: url('../img/fesc-detail.png');
-}
-
-.calc-image {
-  background-image: url('../img/calc-detail.png');
-}
-
-.conquer-image {
-  background-image: url('../img/conquer-detail.png');
-}
-
-.homepage-container {
-  top: 60px;
-  left: 50%;
-  transform: translateX(-50%);
-  position: absolute;  
-}
-
-.project-header-inner-container {
-  max-width: 800px;
-  padding: 0 4%;
-}
-
-.project-title {
-  margin: 0;
-  color: #fff;
-  font-weight: 500;
-  font-size: 3.25em;
-  padding-bottom: 64px;
-  text-align: center;
-}
-
-/*----- Description Section ----- */
-.description-section {
-  padding: 80px 0;
-  width: 100%;
-  background-color: #fff;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.description-container {
-  width: 80%;
-  max-width: 800px;
-}
-
-.description-title {
-  font-size: 1.25em;
-}
-
-.description-subtitle {
-  font-size: 1em;
-  padding: 8px 0;
-  font-weight: 400;
-}
-
-.horizontal-line {
-  width: 100%;
-  border-style: solid;
-  display: none
-}
-
-.description-text {
-  font-size: 1.25em;
-  /*font-size: 1.25em;*/
-  padding: 24px 0;
-  line-height: 1.5em;
-  font-weight: 400;
-}
-
-.visit-button {
-  width: 180px;
-  height: 40px;
-  margin-top: 18px;
-  font-size: .9em;
-  border: 0;
-  outline: transparent;
-  cursor: pointer;
-}
-
-.visit-button:hover {
-  filter: brightness(115%);
-}
-
 /*----- Project Section ------ */
 .project-section {
   width: 100%;
@@ -275,13 +231,13 @@ padding-bottom: 20px;
 }
 
 .project-img-description-header {
-  font-size: 1em;
+  font-size: var(--project-header-min);
   line-height: 1.56;
   font-weight: bold;
 }
 
 .project-img-description {
-  font-size: 1em;
+  font-size: var(--project-text-min);
   line-height: 1.56;
 }
 
@@ -292,7 +248,7 @@ padding-bottom: 20px;
 /*----- Tech Section ----- */
 .technologies-section {
   width: 100%;
-  background-color: #f5f5f5;
+  background-color: var(--bg-gray);
   height: 580px;
   position: relative;
   display: flex;
@@ -313,7 +269,7 @@ padding-bottom: 20px;
 
 .technologies-title,
 .resources-title {
-  font-size: 1em;
+  font-size: var(--tech-title-min);
   font-weight: bold
 }
 
@@ -329,7 +285,7 @@ padding-bottom: 20px;
 
 .technologies-text,
 .resources-text {
-  font-size: 1em;
+  font-size: var(--tech-text-min);
   padding-top: 8px;
 }
 
@@ -368,7 +324,7 @@ padding-bottom: 20px;
 .navigate-next a {
   color: #000;
   text-decoration: none;
-  font-size: 1em;
+  font-size: var(--nav-text-min);
 }
 
 .arrow {

@@ -7,7 +7,7 @@
   }
   
   .project-title {
-    font-size: 4.25em;
+    font-size: var(--title-max);
   }
 
   .description-section {
@@ -20,15 +20,15 @@
   }
 
   .description-title {
-    font-size: 1.75em;
+    font-size: var(--description-title-and-text-max);
   }
 
   .description-subtitle {
-    font-size: 1.25em;
+    font-size: var(--description-subtitle-max);
   }
 
   .description-text {
-    font-size: 1.75em;
+    font-size: var(--description-title-and-text-max);;
   }
 
   .project-section {
@@ -44,11 +44,11 @@
   } 
 
   .project-img-description-header {
-    font-size: 1.2em;
+    font-size: var(--project-header-max);
   }
 
   .project-img-description {
-    font-size: 1.2em;
+    font-size: var(--project-text-max);
   }
 
   .technologies-section {
@@ -65,7 +65,7 @@
   .resources-title,
   .technologies-text,
   .resources-text {
-    font-size: 1.25em;
+    font-size: var(--tech-text-med);
   }
 
   .navigate-section {
@@ -74,7 +74,7 @@
 
   .navigate-prev a,
   .navigate-next a {
-    font-size: 1.25em;
+    font-size: var(--nav-text-med);
   }
 
 }
@@ -84,7 +84,7 @@
   .resources-title,
   .technologies-text,
   .resources-text {
-    font-size: 1.75em;
+    font-size: var(--tech-text-max);
   }
 
   .navigate-section {
@@ -93,6 +93,6 @@
 
   .navigate-prev a,
   .navigate-next a {
-    font-size: 1.75em;
+    font-size: var(--nav-text-max);
   }
 }
