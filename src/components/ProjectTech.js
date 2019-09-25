@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProjectTech = (props) => {
-  console.log("hi")
+  console.log("ai")
 
   return(
     <div className="project-tech-wrapper">

@@ -1,5 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import ScrollToTop from 'react-router-scroll-top'
 import Home from './components/Home'
 import Calc from './components/Calc'
 import Stumptown from './components/Stumptown'
@@ -11,6 +12,7 @@ import FESC from './components/FESC'
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop>
       <div className="App">
         <Switch>
           <Route exact path='/' component={Home} />
@@ -22,6 +24,7 @@ function App() {
           <Route path='/fesc' component={FESC} />
         </Switch>
       </div>
+      </ScrollToTop>
     </BrowserRouter>
   );
 }
