@@ -9,7 +9,7 @@ import {NavLink} from 'react-router-dom'
 
 const Work = () => {
   return (
-    <section id="work" class="work-section">
+    <section id="work" className="work-section">
       <div className="work-container">
         <div className="work-title-container">
           <h2 className="work-title">Work Samples</h2>
@@ -17,7 +17,7 @@ const Work = () => {
         </div>
         <div className="work-project-container">
           <div className="projects project1">
-            <figure class="effect effect-calc">
+            <figure className="effect effect-calc">
               <img className="effect-img calc-img" src={calc} alt="calculator"/>
               <figcaption className="effect-caption calc-caption">
                 <h2 className="effect-title calc-title">Calculator</h2>
@@ -27,7 +27,7 @@ const Work = () => {
             </figure>
           </div>
           <div className="projects project2">
-            <figure class="effect effect-stumptown">
+            <figure className="effect effect-stumptown">
               <img className="effect-img stump-img" src={stumptown} alt="Stumptown"/>
               <figcaption className="effect-caption stump-caption">
                 <h2 className="effect-title stump-title">Stumptown</h2>
@@ -37,7 +37,7 @@ const Work = () => {
             </figure>
           </div>
           <div className="projects project3">
-            <figure class="effect effect-bonapp">
+            <figure className="effect effect-bonapp">
               <img className="effect-img bonapp-img" src={bonapp} alt="Bon Appetit"/>
               <figcaption className="effect-caption bonapp-caption">
                 <h2 className="effect-title bonapp-title">Bon Appetit</h2>
@@ -47,7 +47,7 @@ const Work = () => {
             </figure>
           </div>
           <div className="projects project4">
-            <figure class="effect effect-block">
+            <figure className="effect effect-block">
               <img className="effect-img block-img" src={block} alt="Block Renovations"/>
               <figcaption className="effect-caption block-caption">
                 <h2 className="effect-title block-title">Block Renovations</h2>
@@ -57,7 +57,7 @@ const Work = () => {
             </figure>
           </div>
           <div className="projects project5">
-            <figure class="effect effect-conquer">
+            <figure className="effect effect-conquer">
               <img className="effect-img conquer-img" src={conquer} alt="Conquer"/>
               <figcaption className="effect-caption conquer-caption">
                 <h2 className="effect-title conquer-title">Conquer</h2>
@@ -67,7 +67,7 @@ const Work = () => {
             </figure>
           </div>
           <div className="projects project6">
-            <figure class="effect effect-fesc">
+            <figure className="effect effect-fesc">
               <img className="effect-img fesc-img" src={fesc} alt="FESC"/>
               <figcaption className="effect-caption fesc-caption">
                 <h2 className="effect-title fesc-title">F.E.S.C</h2>

@@ -9,7 +9,7 @@ const Summary = () => {
             <h2 className="work-together-title">Let's work together</h2>
           </div>
           <div className="work-together-text-container">
-            <p className="work-together-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur similique, debitis sunt accusamus reprehenderit illo accusantium doloribus error culpa repudiandae voluptatem expedita maxime nesciunt vel commodi quae obcaecati dolore! Nihil.</p>
+            <p className="work-together-text">I'm currently on the lookout for a fulltime position in Web Development.  What I can bring to the table is a positive attitude, years of experience working within a team environment, and a never ending willingness to constantly learn and improve my abilities.</p>
           </div>
         </div>
       </div>

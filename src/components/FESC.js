@@ -24,7 +24,7 @@ class FESC extends Component {
     title1: "Navigation",
     title2: "The Look",
     title3: "API and Google Charts",
-    description1: "The original site was just so jam packed with links and information that it was very hard to find the information you were looking for.  I re-worked the nav menus and links to make easier for the user to get to the page they were interested in.",
+    description1: "The original site was just so jam packed with links and information that it was very hard to find the information you were looking for.  I re-worked the nav menus and links to make it easier for the user to get to the page they were interested in.",
     description2: "A goal of mine in re-working the site was to make it more pleasing to the eye.  I softened up the body by using containers with rounded corners, big colorful icons and kept the base colors to ones we normally represent with clean energy.",
     description3: "Additionally, we were tasked with making a fourth page (About us --> Energy Report) that incorporated the use of the US Energy Info Admin api and using Google charts to represent the data.",
     tech1: "HTML",

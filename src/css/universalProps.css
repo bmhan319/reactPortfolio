@@ -123,3 +123,22 @@
   transform: scaleX(1);
   transform-origin: left;
 }
+
+.back-to-top-container {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  opacity: 0;
+}
+
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: var(--bg-dark-gray);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

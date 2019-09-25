@@ -10,7 +10,7 @@ const ProjectWork = (props) => {
           </div>
           <div className="project-img-description-container">
             <h3 className="project-img-description-header">{props.project.title1}</h3>
-            <p className="project-img-description">{props.project.description1} <a className="project-page-link" href={props.project.gitPage} target="_blank">ViewPage</a></p>
+            <p className="project-img-description">{props.project.description1} <a className="project-page-link" href={props.project.gitPage} target="_blank" rel="noopener noreferrer">ViewPage</a></p>
           </div>
         </div>
       </section>
@@ -21,7 +21,7 @@ const ProjectWork = (props) => {
           </div>
           <div className="project-img-description-container">
             <h3 className="project-img-description-header">{props.project.title2}</h3>
-            <p className="project-img-description">{props.project.description2} <a className="project-page-link" href={props.project.page2} target="_blank">ViewPage</a></p>
+            <p className="project-img-description">{props.project.description2} <a className="project-page-link" href={props.project.page2} target="_blank" rel="noopener noreferrer">ViewPage</a></p>
           </div>
         </div>
       </section>
@@ -32,7 +32,7 @@ const ProjectWork = (props) => {
           </div>
           <div className="project-img-description-container">
             <h3 className="project-img-description-header">{props.project.title3}</h3>
-            <p className="project-img-description">{props.project.description3} <a className="project-page-link" href={props.project.page3} target="_blank">ViewPage</a></p>
+            <p className="project-img-description">{props.project.description3} <a className="project-page-link" href={props.project.page3} target="_blank" rel="noopener noreferrer">ViewPage</a></p>
           </div>
         </div>
       </section>
