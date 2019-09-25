@@ -406,6 +406,7 @@ img {
 .summary-section {
   width: 100%;
   background-color: #fff;
+  position: relative;
 }
 
 .summary-head-section {
