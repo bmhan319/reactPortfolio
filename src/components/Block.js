@@ -16,6 +16,7 @@ class Block extends Component {
     descriptionTitle: "block renovations",
     descriptionText1: "Webpage Recreation",
     descriptionText2: "I had learned Javascript in class and on my own but had actually used it very little in the work I had done up to this point.  So fresh off of finishing the Conquer page, I decided to try re-creating this page due to the variety of JS parts I saw when I first came across this site.",
+    buttonText: "Visit Site Recreation",
     image: [block1,block2,block3],
     alt:["conquer top page","conquer repsonsive page","conquer repsonsive page"],
     title1: "Interesting Features",

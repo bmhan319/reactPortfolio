@@ -16,6 +16,7 @@ class BonAppetit extends Component {
     descriptionTitle: "bon appetit",
     descriptionText1: "Website Recreation",
     descriptionText2: "After successfully recreating a couple of web pages, I thought I would try doing multiple pages.  The Bon Apetit videos are ones that I watch fairly regularly on Youtube and so I decided to checkout their site.",
+    buttonText: "Visit Site Recreation",
     image: [bonapp1,bonapp2,bonapp3],
     alt:["conquer top page","conquer responsive page","conquer responsive page"],
     title1: "Content Site",

@@ -15,6 +15,7 @@ class Calc extends Component {
     descriptionTitle: "calculator",
     descriptionText1: "Created Using React",
     descriptionText2: "After watching some React tutorials, I was looking for my first React project and saw that creating a calculator was suggested on many sites. Instead of following a calculator tutorial, I decided to see if this was something I could do on my own with the JS abilities I had developed up to that point." ,
+    buttonText: "Visit Calculator App",
     image: ["","",calc1],
     alt:["conquer top page","conquer repsonsive page","conquer repsonsive page"],
     title1: "",

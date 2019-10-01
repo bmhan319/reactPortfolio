@@ -19,6 +19,7 @@ class FESC extends Component {
     descriptionTitle: "FESC",
     descriptionText1: "Final Class Project",
     descriptionText2: "The goal of the assignment was to redesign three pages of the FESC website to give it a fresher feel.  I chose to do the Homepage, Meet the Team, Research -> Fields pages.",
+    buttonText: "Visit Redesigned Site",
     image: [fescHome,fescFields,fescReport],
     alt:["fesc home page","fesc fields page","fesc team page"],
     title1: "Navigation",

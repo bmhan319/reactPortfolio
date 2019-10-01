@@ -16,6 +16,7 @@ class Conquer extends Component {
     descriptionTitle: "conquer",
     descriptionText1: "Webpage Recreation",
     descriptionText2: "Upon completion of my Certification class, I wanted to try my hand at recreating a webpage to as close to pixel for pixel as possible.  I chose this web template.",
+    buttonText: "Visit Site Recreation",
     image: [conquer1,conquer2,conquer3],
     alt:["conquer top page","conquer repsonsive page","conquer repsonsive page"],
     title1: "Parallax",

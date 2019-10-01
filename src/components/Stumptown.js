@@ -16,6 +16,7 @@ class Stumptown extends Component {
     descriptionTitle: "stumptown",
     descriptionText1: "Webpage Recreation",
     descriptionText2: "I wanted to do one more site recreation page just to provide one last platform to hone my html/css skills.  I wanted an e-commerce site just to switch things up again and landed on Stumptown.",
+    buttonText: "Visit Site Recreation",
     image: [stump1,stump2,stump3],
     alt:["conquer top page","conquer repsonsive page","conquer repsonsive page"],
     title1: "Commerce Site",
