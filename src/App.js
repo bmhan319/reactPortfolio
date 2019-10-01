@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import {HashRouter, Route, Switch} from 'react-router-dom'
 import ScrollToTop from 'react-router-scroll-top'
 import Home from './components/Home'
 import Calc from './components/Calc'
@@ -12,7 +12,7 @@ import FESC from './components/FESC'
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <ScrollToTop>
       <div className="App">
         <Switch>
@@ -26,7 +26,7 @@ function App() {
         </Switch>
       </div>
       </ScrollToTop>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
