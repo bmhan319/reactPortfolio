@@ -8,6 +8,7 @@ import Footer from './Footer'
 import calc1 from '../img/calc1.png'
 
 class Calc extends Component {
+
   state = {
     title: "Mac Style Calculator",
     cssClass: "calc",
@@ -38,8 +39,9 @@ class Calc extends Component {
   }
 
   render() {
+
     return(
-      <div id="topo" className="project-wrapper">
+      <div className="project-wrapper">
         <ProjectHeader project={this.state}/>
         <ProjectDescription project={this.state}/>
         <ProjectWork project={this.state}/>

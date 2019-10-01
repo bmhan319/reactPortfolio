@@ -2,6 +2,7 @@ import React from "react"
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 const ProjectHeader = (props) => {
+  
   return(
     <header id="top" className={`project-header-section ${props.project.cssClass}-image bg-image`}>
       <div className="homepage-container">

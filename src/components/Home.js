@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Intro from './Intro'
 import About from './About'
 import Skills from './Skills'
