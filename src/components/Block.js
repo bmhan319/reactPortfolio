@@ -26,7 +26,7 @@ class Block extends Component {
     description2: "Slideshows are a pretty common feature and so learning how to build one was on my list of things to do.",
     description3: "To take the slideshow one step further, I had to learn how to bring up a modal window with the image selected by the end user.  In addition to having the images slide from one to the other, I had to incorporate a multi-step zoom in/out function.",
     tech1: "HTML",
-    tech2: "CSS",
+    tech2: "CSS / SCSS",
     tech3: "JavaScript",
     originalSite: "https://www.blockrenovation.com",
     gitHub: "https://github.com/bmhan319/BlockRenovations",

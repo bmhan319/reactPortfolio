@@ -251,7 +251,7 @@ img {
   width: 100%;
   display: grid;
   grid-template-columns:1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr);
+  grid-template-rows: repeat(7, 1fr);
   grid-row-gap: 24px;
 }
 
@@ -261,17 +261,17 @@ img {
   transition: opacity .2s linear;
 }
 
-.project1 {
+.project7 {
   grid-row-start: 1;
   grid-row-end: 2;
 }
 
-.project2 {
+.project6 {
   grid-row-start: 2;
   grid-row-end: 3;
 }
 
-.project3 {
+.project5 {
   grid-row-start: 3;
   grid-row-end: 4;
 }
@@ -281,14 +281,19 @@ img {
   grid-row-end: 5;
 }
 
-.project5 {
+.project3 {
   grid-row-start: 5;
   grid-row-end: 6;
 }
 
-.project6 {
+.project2 {
   grid-row-start: 6;
   grid-row-end: 7;
+}
+
+.project1 {
+  grid-row-start: 7;
+  grid-row-end: 8;
 }
 
 .effect-img {
@@ -300,6 +305,10 @@ img {
 	position: relative;
 	overflow: hidden;
   margin: 0;
+}
+
+.effect-weather {
+  background-color: var(--weather-color)
 }
 
 .effect-calc {

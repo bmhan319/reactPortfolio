@@ -49,6 +49,10 @@
   background-image: url('../img/conquer-detail.png');
 }
 
+.weather-image {
+  background-image: url('../img/conquer-detail.png');
+}
+
 .homepage-container {
   top: 60px;
   left: 50%;
@@ -203,6 +207,18 @@
 
 .conquer-bg {
   background-color: var(--conquer-color);
+}
+
+.weather-color {
+  color: var(--weather-color);
+}
+
+.weather-hr {
+  border-color: var(--weather-color);
+}
+
+.weather-bg {
+  background-color: var(--weather-color);
 }
 
 /*----- Project Section ------ */

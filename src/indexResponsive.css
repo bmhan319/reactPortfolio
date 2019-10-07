@@ -127,40 +127,46 @@
 
   .work-project-container {
     grid-template-columns:1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
   }
 
   .project1,
   .project3,
-  .project5 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+  .project5,
+  .project7 {
+    grid-column-start: 2;
+    grid-column-end: 3;
   }
 
   .project2,
   .project4,
   .project6 {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
   }
 
   .project1,
   .project2 {
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
   }
 
   .project3,
   .project4 {
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
   .project5,
   .project6 {
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .project7  {
+    grid-row-start: 1;
+    grid-row-end: 2;
   }
 
   .effect-title {

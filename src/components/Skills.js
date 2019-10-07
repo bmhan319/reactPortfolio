@@ -30,7 +30,7 @@ const Skills = () => {
             <ul className="skills-list">
               <li className="skills-list-item">Collaboration</li>
               <li className="skills-list-item">Problem Solving</li>
-              <li className="skills-list-item">Qucik Thinking</li>
+              <li className="skills-list-item">Quick Thinking</li>
             </ul>
           </div>         
         </div>
@@ -42,6 +42,7 @@ const Skills = () => {
           <div className="skills-list-container">
             <h3 className="skills-title">Dev Tools</h3>
             <ul className="skills-list">
+              <li className="skills-list-item">Sass</li>
               <li className="skills-list-item">React</li>
               <li className="skills-list-item">Git</li>
               <li className="skills-list-item">Unix</li>

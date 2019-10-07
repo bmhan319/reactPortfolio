@@ -5,6 +5,7 @@ import block from '../img/block-tn.png'
 import conquer from '../img/conquer-tn.png'
 import fesc from '../img/fesc-tn.png'
 import calc from '../img/calc-tn.png'
+import weather from '../img/weather1.jpg'
 import {NavLink} from 'react-router-dom'
 
 const Work = () => {
@@ -16,7 +17,17 @@ const Work = () => {
           <p className="work-statement">Here are my recent projects. Want to see more?</p>
         </div>
         <div className="work-project-container">
-          <div className="projects project1">
+          <div className="projects project7">
+            <figure className="effect effect-weather">
+              <img className="effect-img weather-img" src={weather} alt="weather app"/>
+              <figcaption className="effect-caption weather-caption">
+                <h2 className="effect-title weather-title">Weather App</h2>
+                <p className="effect-text weather-text">Made using React</p>
+                <NavLink to="/weather" className="effect-link weather-link">Go</NavLink>
+              </figcaption>			
+            </figure>
+          </div>
+          <div className="projects project6">
             <figure className="effect effect-calc">
               <img className="effect-img calc-img" src={calc} alt="calculator"/>
               <figcaption className="effect-caption calc-caption">
@@ -26,7 +37,7 @@ const Work = () => {
               </figcaption>			
             </figure>
           </div>
-          <div className="projects project2">
+          <div className="projects project5">
             <figure className="effect effect-stumptown">
               <img className="effect-img stump-img" src={stumptown} alt="Stumptown"/>
               <figcaption className="effect-caption stump-caption">
@@ -36,7 +47,7 @@ const Work = () => {
               </figcaption>			
             </figure>
           </div>
-          <div className="projects project3">
+          <div className="projects project4">
             <figure className="effect effect-bonapp">
               <img className="effect-img bonapp-img" src={bonapp} alt="Bon Appetit"/>
               <figcaption className="effect-caption bonapp-caption">
@@ -46,7 +57,7 @@ const Work = () => {
               </figcaption>			
             </figure>
           </div>
-          <div className="projects project4">
+          <div className="projects project3">
             <figure className="effect effect-block">
               <img className="effect-img block-img" src={block} alt="Block Renovations"/>
               <figcaption className="effect-caption block-caption">
@@ -56,7 +67,7 @@ const Work = () => {
               </figcaption>			
             </figure>
           </div>
-          <div className="projects project5">
+          <div className="projects project2">
             <figure className="effect effect-conquer">
               <img className="effect-img conquer-img" src={conquer} alt="Conquer"/>
               <figcaption className="effect-caption conquer-caption">
@@ -66,7 +77,7 @@ const Work = () => {
               </figcaption>			
             </figure>
           </div>
-          <div className="projects project6">
+          <div className="projects project1">
             <figure className="effect effect-fesc">
               <img className="effect-img fesc-img" src={fesc} alt="FESC"/>
               <figcaption className="effect-caption fesc-caption">

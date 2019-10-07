@@ -29,7 +29,7 @@ class FESC extends Component {
     description2: "A goal of mine in re-working the site was to make it more pleasing to the eye.  I softened up the body by using containers with rounded corners, big colorful icons and kept the base colors to ones we normally represent with clean energy.",
     description3: "Additionally, we were tasked with making a fourth page (About us --> Energy Report) that incorporated the use of the US Energy Info Admin api and using Google charts to represent the data.",
     tech1: "HTML",
-    tech2: "CSS with Sass",
+    tech2: "CSS / SCSS",
     tech3: "JavaScript",
     originalSite: "http://floridaenergy.ufl.edu/",
     gitHub: "https://github.com/bmhan319/FloridaEnergySystemsConsortium-redesign",
@@ -37,9 +37,9 @@ class FESC extends Component {
     page2:"https://bmhan319.github.io/FloridaEnergySystemsConsortium-redesign/research.html",
     page3: "https://bmhan319.github.io/FloridaEnergySystemsConsortium-redesign/energy-report.html",
     prev: "Conquer",
-    next: "Calculator",
+    next: "Weather",
     prevLink: "/conquer",
-    nextLink: "/calc",
+    nextLink: "/weather",
   }
 
   render() {

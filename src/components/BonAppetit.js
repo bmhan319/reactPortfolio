@@ -26,7 +26,7 @@ class BonAppetit extends Component {
     description2: "What was interesting to me on this was in recreating the nav menu that slid down and faded into view.",
     description3: 'This page is what got caught my curiosity on this site.  The page is split in half vertically and on clicking the "next" button, I had to figure out how one column would go up while the other down to deliver the next set of slides.  Eventually, the slides circle back to the first slide.  I had a carousel on the Block Renovation site and used a library for it but figured out how to code this one myself.',
     tech1: "HTML",
-    tech2: "CSS",
+    tech2: "CSS / SCSS",
     tech3: "JavaScript",
     originalSite: "https://www.bonappetit.com/",
     gitHub: "https://github.com/bmhan319/bon-appetit",
