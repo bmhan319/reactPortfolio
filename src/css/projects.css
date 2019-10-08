@@ -50,7 +50,7 @@
 }
 
 .weather-image {
-  background-image: url('../img/conquer-detail.png');
+  background-image: url('../img/weather-detail.png');
 }
 
 .homepage-container {
@@ -268,7 +268,63 @@ padding-bottom: 20px;
 }
 
 .project-page-link {
-  color: #000;
+  text-decoration: none;
+}
+
+.weather-project-page-link {
+  color: var(--weather-color);
+}
+
+.weather-project-page-link::before {
+  background-color: var(--weather-color);
+}
+
+.calc-project-page-link {
+  color: var(--calc-color);
+}
+
+.calc-project-page-link::before {
+  background-color: var(--calc-color);
+}
+
+.block-project-page-link {
+  color: var(--block-color);
+}
+
+.block-project-page-link::before {
+  background-color: var(--block-color);
+}
+
+.stumptown-project-page-link {
+  color: var(--stump-color);
+}
+
+.stumptown-project-page-link::before {
+  background-color: var(--stump-color);
+}
+
+.bonapp-project-page-link {
+  color: var(--bonapp-color);
+}
+
+.bonapp-project-page-link::before {
+  background-color: var(--bonapp-color);
+}
+
+.conquer-project-page-link {
+  color: var(--conquer-color);
+}
+
+.conquer-project-page-link::before {
+  background-color: var(--conquer-color);
+}
+
+.fesc-project-page-link {
+  color: var(--fesc-color);
+}
+
+.fesc-project-page-link::before {
+  background-color: var(--fesc-color);
 }
 
 /*----- Tech Section ----- */

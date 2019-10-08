@@ -308,7 +308,7 @@ img {
 }
 
 .effect-weather {
-  background-color: var(--weather-color)
+  background-color: var(--weather-color);
 }
 
 .effect-calc {

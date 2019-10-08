@@ -5,7 +5,7 @@ import block from '../img/block-tn.png'
 import conquer from '../img/conquer-tn.png'
 import fesc from '../img/fesc-tn.png'
 import calc from '../img/calc-tn.png'
-import weather from '../img/weather1.jpg'
+import weather from '../img/weather-tn.png'
 import {NavLink} from 'react-router-dom'
 
 const Work = () => {

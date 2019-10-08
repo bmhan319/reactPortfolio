@@ -5,7 +5,9 @@ import ProjectWork from './ProjectWork'
 import ProjectTech from './ProjectTech'
 import ProjectNav from './ProjectNav'
 import Footer from './Footer'
-import weather1 from '../img/weather1.jpg'
+import weather1 from '../img/weather1.png'
+import weather2 from '../img/weather2.png'
+import weather3 from '../img/weather3.png'
 
 class Weather extends Component {
 
@@ -16,7 +18,7 @@ class Weather extends Component {
     descriptionText1: "Created Using React",
     descriptionText2: "This was my 3rd React project after the Calculator and this Portfolio." ,
     buttonText: "Visit Weather App",
-    image: [weather1,weather1,weather1],
+    image: [weather1,weather2,weather3],
     alt:["weather app","weather app","weather app"],
     title1: "",
     title2: "",
@@ -32,6 +34,7 @@ class Weather extends Component {
     originalSite: "",
     gitHub: "https://github.com/bmhan319/reactWeatherApp/",
     gitPage: "https://bmhan319.github.io/reactWeatherApp/",
+    page2: "https://bmhan319.github.io/reactWeatherApp/",
     page3: "https://bmhan319.github.io/reactWeatherApp/",
     prev: "FESC",
     next: "Calc",
