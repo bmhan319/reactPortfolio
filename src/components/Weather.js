@@ -16,7 +16,7 @@ class Weather extends Component {
     cssClass: "weather",
     descriptionTitle: "weather app",
     descriptionText1: "Created Using React",
-    descriptionText2: "Another app that was always came up as a good one to build was a weather app.  This was my 3rd React project after the Calculator and this Portfolio." ,
+    descriptionText2: "Another app that always came up as a good one to build was a weather app.  This was my 3rd React project after the Calculator and this Portfolio." ,
     buttonText: "Visit Weather App",
     image: [weather1,weather2,weather3],
     alt:["weather app","weather app","weather app"],
