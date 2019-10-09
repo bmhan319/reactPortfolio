@@ -231,7 +231,9 @@
   padding-bottom: 100px;
 }
 
-.project-calc-noshow {
+.project-calc-noshow1,
+.project-calc-noshow2,
+.project-weather-noshow1{
   display: none;
 }
 

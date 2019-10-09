@@ -3,7 +3,7 @@ import React from 'react';
 const ProjectWork = (props) => {
   return(
     <div className="project-work-wrapper">
-      <section className={`project-section project-${props.project.cssClass}-noshow`}>
+      <section className={`project-section project-${props.project.cssClass}-noshow1`}>
         <div className="project-section-wrapper">
           <div className="project-img-container">
             <img src={props.project.image[0]} alt={props.project.alt[0]} className="project-img"/>
@@ -14,7 +14,7 @@ const ProjectWork = (props) => {
           </div>
         </div>
       </section>
-      <section className={`project-section project-${props.project.cssClass}-noshow`}>
+      <section className={`project-section project-${props.project.cssClass}-noshow2`}>
         <div className="project-section-wrapper">
           <div className="project-img-container">
             <img src={props.project.image[1]}  alt={props.project.alt[1]} className="project-img"/>
