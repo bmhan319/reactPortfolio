@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.01771286.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.19f2f156.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.19f2f156.chunk.js.map",
+    "main.css": "/reactPortfolio/static/css/main.aae78b64.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.ebe86608.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.ebe86608.chunk.js.map",
     "runtime~main.js": "/reactPortfolio/static/js/runtime~main.192ae2a2.js",
     "runtime~main.js.map": "/reactPortfolio/static/js/runtime~main.192ae2a2.js.map",
-    "static/js/2.949dc0eb.chunk.js": "/reactPortfolio/static/js/2.949dc0eb.chunk.js",
-    "static/js/2.949dc0eb.chunk.js.map": "/reactPortfolio/static/js/2.949dc0eb.chunk.js.map",
+    "static/js/2.192ffc96.chunk.js": "/reactPortfolio/static/js/2.192ffc96.chunk.js",
+    "static/js/2.192ffc96.chunk.js.map": "/reactPortfolio/static/js/2.192ffc96.chunk.js.map",
     "index.html": "/reactPortfolio/index.html",
-    "precache-manifest.5c8ae767d346fdae9ea51670924b2fc3.js": "/reactPortfolio/precache-manifest.5c8ae767d346fdae9ea51670924b2fc3.js",
+    "precache-manifest.7470027eacae4be5f3ea7faf6035ea65.js": "/reactPortfolio/precache-manifest.7470027eacae4be5f3ea7faf6035ea65.js",
     "service-worker.js": "/reactPortfolio/service-worker.js",
-    "static/css/main.01771286.chunk.css.map": "/reactPortfolio/static/css/main.01771286.chunk.css.map",
+    "static/css/main.aae78b64.chunk.css.map": "/reactPortfolio/static/css/main.aae78b64.chunk.css.map",
     "static/media/index.css": "/reactPortfolio/static/media/brian-photo.5a93698b.png",
-    "static/media/projects.css": "/reactPortfolio/static/media/stumptown-detail.fa858d56.png",
+    "static/media/projects.css": "/reactPortfolio/static/media/weather-detail.b384cf13.png",
     "static/media/block-tn.png": "/reactPortfolio/static/media/block-tn.655cc8cd.png",
     "static/media/block1.png": "/reactPortfolio/static/media/block1.31f4d881.png",
     "static/media/block2.png": "/reactPortfolio/static/media/block2.73c61388.png",
@@ -40,6 +40,10 @@
     "static/media/stump3.png": "/reactPortfolio/static/media/stump3.385af649.png",
     "static/media/stumptown-tn.png": "/reactPortfolio/static/media/stumptown-tn.f39236fa.png",
     "static/media/tools.svg": "/reactPortfolio/static/media/tools.44ff42a2.svg",
+    "static/media/weather-tn.png": "/reactPortfolio/static/media/weather-tn.24f60197.png",
+    "static/media/weather1.png": "/reactPortfolio/static/media/weather1.be0c9b28.png",
+    "static/media/weather2.png": "/reactPortfolio/static/media/weather2.105f7dd2.png",
+    "static/media/weather3.png": "/reactPortfolio/static/media/weather3.0665aef6.png",
     "static/media/web-programming.svg": "/reactPortfolio/static/media/web-programming.e4c25de4.svg"
   }
 }

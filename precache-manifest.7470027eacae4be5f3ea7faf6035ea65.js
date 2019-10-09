@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9a69a58551a1d928eea8553c361d61a",
+    "revision": "2be254300c377ce40fd6fbf5b0a43a5e",
     "url": "/reactPortfolio/index.html"
   },
   {
-    "revision": "c768844a4a1d667df844",
-    "url": "/reactPortfolio/static/css/main.01771286.chunk.css"
+    "revision": "5da16775278e40871775",
+    "url": "/reactPortfolio/static/css/main.aae78b64.chunk.css"
   },
   {
-    "revision": "8506c291038e1cfbb983",
-    "url": "/reactPortfolio/static/js/2.949dc0eb.chunk.js"
+    "revision": "70482667fafc6aea9ff0",
+    "url": "/reactPortfolio/static/js/2.192ffc96.chunk.js"
   },
   {
-    "revision": "c768844a4a1d667df844",
-    "url": "/reactPortfolio/static/js/main.19f2f156.chunk.js"
+    "revision": "5da16775278e40871775",
+    "url": "/reactPortfolio/static/js/main.ebe86608.chunk.js"
   },
   {
     "revision": "86f34d8c25da07b94a82",
@@ -158,6 +158,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "44ff42a2c80f5636700862092ecd05df",
     "url": "/reactPortfolio/static/media/tools.44ff42a2.svg"
+  },
+  {
+    "revision": "b384cf13571b3db051efbe9c9a3592c3",
+    "url": "/reactPortfolio/static/media/weather-detail.b384cf13.png"
+  },
+  {
+    "revision": "24f6019782f10580735e46565932d6c5",
+    "url": "/reactPortfolio/static/media/weather-tn.24f60197.png"
+  },
+  {
+    "revision": "be0c9b2821985a804d0bf363b6f925bd",
+    "url": "/reactPortfolio/static/media/weather1.be0c9b28.png"
+  },
+  {
+    "revision": "105f7dd2cff65b4da7110945d0faa4bb",
+    "url": "/reactPortfolio/static/media/weather2.105f7dd2.png"
+  },
+  {
+    "revision": "0665aef6bcb3daa5b22e19c3d8e9f231",
+    "url": "/reactPortfolio/static/media/weather3.0665aef6.png"
   },
   {
     "revision": "e4c25de42623633b3496afca3ce01e06",
