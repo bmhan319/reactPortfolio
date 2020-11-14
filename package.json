@@ -4,13 +4,13 @@
   "private": true,
   "homepage": "http://bmhan319.github.io/reactPortfolio/",
   "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-router-dom": "^5.0.1",
-    "react-router-hash-link": "^1.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.2.2",
     "react-router-scroll-top": "^0.2.1",
-    "react-scripts": "3.1.1",
-    "react-scroll": "^1.7.14"
+    "react-scripts": "4.0.0",
+    "react-scroll": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^3.1.0"
   }
 }
